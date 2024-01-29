@@ -1,0 +1,1110 @@
+Exception Gedi: 21 00005 a função GEDI_USB_Close retornou GEDI_RET_TIMEOUT
+DEBUG   :       #12 pc 00000000000c1e50  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+208) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   : uid: 1027
+DEBUG   :     lr  0000007f7a8622f4  sp  0000007c500a8650  pc  0000007f7a862324  pst 0000000000000000
+DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+Exception Gedi: 29 00010 a função GEDI_RS232_DataReceive retornou GEDI_RET_END_OF_LIST
+Exception Gedi: 29 00008 a função GEDI_RS232_DataReceive retornou GEDI_RET_BUFFER_NOT_ENOUGH
+DEBUG   :       #00 pc 0000000000053324  /apex/com.android.runtime/lib64/bionic/libc.so (abort+180) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   : Abort message: 'JNI FatalError called: enableInternal'
+DEBUG   :       #05 pc 000000000003484c  /system/lib64/libnfc_nci_jni.so (android::nfcManager_doAbort(_JNIEnv*, _jobject*, _jstring*)+60) (BuildId: bcd5c29118ceec7089f2398532c4f353)
+DEBUG   : Timestamp: 2023-12-09 08:20:38.233693024-0300
+DEBUG   :     x16 0000007f7a8dfd60  x17 0000007f7a8baa20  x18 0000007c4b0c2008  x19 00000000000000ac
+DEBUG   :       #12 pc 00000000000c1e50  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+208) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+Exception Gedi: 05 10001 a função GEDI_KMS_DUKPTKSNGet retornou GEDI_RET_MODULE_NOT_FOUND
+DEBUG   :     lr  0000007f7a8622f4  sp  0000007c4b478650  pc  0000007f7a862324  pst 0000000000000000
+DEBUG   :       #01 pc 000000000062bbbc  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1372) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : Process uptime: 92s
+DEBUG   : ABI: 'arm64'
+DEBUG   :     x12 0000000000fc3640  x13 000000815afc95dc  x14 000a7d49530af800  x15 0000000000000000
+DEBUG   :     x28 0000007ccec988a6  x29 0000007c4f6fc6f0
+DEBUG   : pid: 16673, tid: 16690, name: enableInternal  >>> com.android.nfc <<<
+DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+Exception Gedi: 15 00006 a função GEDI_SMART_WarmResetEMV retornou GEDI_RET_CANCELLED
+DEBUG   :       #00 pc 0000000000053324  /apex/com.android.runtime/lib64/bionic/libc.so (abort+180) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+Exception Gedi: 49 00001 a função GEDI_CL_PowerOff retornou GEDI_RET_FUNCTION_NOT_FOUND
+Exception Gedi: 41 00010 a função GEDI_BT_ConnectionInfoGet retornou GEDI_RET_END_OF_LIST
+DEBUG   :     x12 00000000010101c0  x13 00000083d760a978  x14 001c5eec83ff0320  x15 0000000000000000
+DEBUG   :     x28 0000007ccec988a6  x29 0000007c4ff406f0
+DEBUG   :       #05 pc 000000000003484c  /system/lib64/libnfc_nci_jni.so (android::nfcManager_doAbort(_JNIEnv*, _jobject*, _jstring*)+60) (BuildId: bcd5c29118ceec7089f2398532c4f353)
+DEBUG   :     x20 00000000000000b2  x21 00000000000040cc  x22 00000000000040dd  x23 00000000ffffffff
+DEBUG   :       #12 pc 00000000000c1e50  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+208) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   : Build fingerprint: 'Gertec/SK-210/SK-210:13/TP1A.220624.014/616:user/dev-keys'
+Exception Gedi: 12 00001 a função GEDI_SMART_PowerOff retornou GEDI_RET_FUNCTION_NOT_FOUND
+Exception Gedi: 26 00000 a função GEDI_USB_StatusGet retornou GEDI_RET_OK
+DEBUG   :     x12 000000000108985c  x13 00000087b5581348  x14 0004c471d025b3c0  x15 0000000000000000
+DEBUG   :     x12 000000000103b766  x13 0000008538e580a0  x14 002a6fff9f309f00  x15 0000000000000000
+DEBUG   :       #02 pc 0000000000017560  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+80) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+Exception Gedi: 08 00001 a função GEDI_KMS_EncryptData retornou GEDI_RET_FUNCTION_NOT_FOUND
+DEBUG   :       #05 pc 000000000003484c  /system/lib64/libnfc_nci_jni.so (android::nfcManager_doAbort(_JNIEnv*, _jobject*, _jstring*)+60) (BuildId: bcd5c29118ceec7089f2398532c4f353)
+DEBUG   :     lr  0000007f7a8622f4  sp  0000007c4c2dc650  pc  0000007f7a862324  pst 0000000000000000
+Exception Gedi: 09 00000 a função GEDI_KMS_CapturePIN retornou GEDI_RET_OK
+libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 16319 (enableInternal), pid 16302 (com.android.nfc)
+DEBUG   :       #07 pc 00000000006d3dd4  /system/app/NfcNci/oat/arm64/NfcNci.odex (com.android.nfc.NfcService$WatchDogThread.run+836) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :     lr  0000007f7a8622f4  sp  0000007c4cbac650  pc  0000007f7a862324  pst 0000000000000000
+DEBUG   :     x24 0000007cb1c1f010  x25 0000000000015f90  x26 0000000000000000  x27 0000007ccf616000
+DEBUG   : backtrace:
+Exception Gedi: 11 00001 a função GEDI_SMART_Status retornou GEDI_RET_FUNCTION_NOT_FOUND
+Exception Gedi: 33 00008 a função GEDI_RS232_Close retornou GEDI_RET_BUFFER_NOT_ENOUGH
+Exception Gedi: 02 10001 a função GEDI_KMS_SelfTest retornou GEDI_RET_MODULE_NOT_FOUND
+DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+DEBUG   :     x24 0000007cb1c3f010  x25 0000000000015f90  x26 0000000000000000  x27 0000007ccf616000
+DEBUG   :     x28 0000007ccec988a6  x29 0000007c48c886f0
+DEBUG   :     x28 0000007ccec988a6  x29 0000007c4cbac6f0
+DEBUG   :       #11 pc 000000000066dca0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1296) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : Process uptime: 92s
+DEBUG   :       #03 pc 0000000000016a84  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+356) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   : Build fingerprint: 'Gertec/SK-210/SK-210:13/TP1A.220624.014/616:user/dev-keys'
+DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+DEBUG   : pid: 16615, tid: 16632, name: enableInternal  >>> com.android.nfc <<<
+DEBUG   : Build fingerprint: 'Gertec/SK-210/SK-210:13/TP1A.220624.014/616:user/dev-keys'
+DEBUG   :       #05 pc 000000000003484c  /system/lib64/libnfc_nci_jni.so (android::nfcManager_doAbort(_JNIEnv*, _jobject*, _jstring*)+60) (BuildId: bcd5c29118ceec7089f2398532c4f353)
+DEBUG   :       #02 pc 0000000000017560  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+80) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   :       #00 pc 0000000000053324  /apex/com.android.runtime/lib64/bionic/libc.so (abort+180) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :       #00 pc 0000000000053324  /apex/com.android.runtime/lib64/bionic/libc.so (abort+180) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :       #13 pc 0000000000054b50  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   : Revision: '0'
+DEBUG   : Timestamp: 2023-12-09 08:06:56.973818821-0300
+DEBUG   :     x0  0000000000000000  x1  0000000000004117  x2  0000000000000006  x3  0000007c500a8670
+DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+Exception Gedi: 08 00001 a função GEDI_KMS_EncryptData retornou GEDI_RET_FUNCTION_NOT_FOUND
+DEBUG   :       #12 pc 00000000000c1e50  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+208) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+at com.android.systemui.qs.external.CustomTile.handleUpdateState(CustomTile.java:427)
+DEBUG   :       #09 pc 000000000027af68  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+184) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : backtrace:
+DEBUG   : ABI: 'arm64'
+DEBUG   :       #10 pc 0000000000624aec  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+460) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : pid: 16244, tid: 16261, name: enableInternal  >>> com.android.nfc <<<
+DEBUG   :       #11 pc 000000000066dca0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1296) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #13 pc 0000000000054b50  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :       #07 pc 00000000006d3dd4  /system/app/NfcNci/oat/arm64/NfcNci.odex (com.android.nfc.NfcService$WatchDogThread.run+836) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :       #10 pc 0000000000624aec  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue 
+DEBUG   : Timestamp: 2023-12-09 08:16:04.470046007-0300
+Exception Gedi: 11 00004 a função GEDI_SMART_Status retornou GEDI_RET_INVALID_PARAMETER
+DEBUG   :     x24 0000007cb1c1f010  x25 0000000000015f90  x26 0000000000000000  x27 0000007ccf616000
+DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 16718 (enableInternal), pid 16701 (com.android.nfc)
+DEBUG   : Timestamp: 2023-12-09 08:29:45.833149979-0300
+DEBUG   : Process uptime: 92s
+DEBUG   : pid: 16475, tid: 16492, name: enableInternal  >>> com.android.nfc <<<
+DEBUG   : Cmdline: com.android.nfc
+DEBUG   :       #06 pc 00000000008b9f60  /system/app/NfcNci/oat/arm64/NfcNci.odex (art_jni_trampoline+128) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :       #02 pc 0000000000017560  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+80) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   :       #04 pc 00000000004757e4  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FatalError(_JNIEnv*, char const*)+196) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : Abort message: 'JNI FatalError called: enableInternal'
+DEBUG   :     x20 00000000000000b2  x21 00000000000041a1  x22 00000000000041b2  x23 00000000ffffffff
+DEBUG   :     x28 0000007ccec988a6  x29 0000007c4b6186f0
+DEBUG   :     x20 00000000000000b2  x21 0000000000004003  x22 0000000000004014  x23 00000000ffffffff
+DEBUG   :       #02 pc 0000000000017560  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+80) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   :     lr  0000007f7a8622f4  sp  0000007c4d036650  pc  0000007f7a862324  pst 0000000000000000
+DEBUG   :       #03 pc 0000000000016a84  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+356) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   :     lr  0000007f7a8622f4  sp  0000007c4cd0e650  pc  0000007f7a862324  pst 0000000000000000
+DEBUG   : pid: 16858, tid: 16875, name: enableInternal  >>> com.android.nfc <<<
+DEBUG   :       #08 pc 000000000021096c  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+556) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #01 pc 000000000062bbbc  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1372) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #02 pc 0000000000017560  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+80) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+Exception Gedi: 36 00005 a função GEDI_BT_ListenStart retornou GEDI_RET_TIMEOUT
+DEBUG   :       #13 pc 0000000000054b50  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   : Revision: '0'
+DEBUG   :     x16 0000007f7a8dfd60  x17 0000007f7a8baa20  x18 0000007c488dc008  x19 00000000000000ac
+DEBUG   :     x4  0000000000003003  x5  0000000000003003  x6  0000000000003003  x7  0000000000003003
+DEBUG   : ABI: 'arm64'
+DEBUG   :     x24 0000007cb1c3f010  x25 0000000000015f90  x26 0000000000000000  x27 0000007ccf616000
+DEBUG   :       #09 pc 000000000027af68  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+184) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #03 pc 0000000000016a84  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+356) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   :     x24 0000007cb1c3f010  x25 0000000000015f90  x26 0000000000000000  x27 0000007ccf616000
+DEBUG   :       #08 pc 000000000021096c  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+556) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #04 pc 00000000004757e4  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FatalError(_JNIEnv*, char const*)+196) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #12 pc 00000000000c1e50  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+208) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :       #08 pc 000000000021096c  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+556) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+Exception Gedi: 15 00008 a função GEDI_SMART_WarmResetEMV retornou GEDI_RET_BUFFER_NOT_ENOUGH
+DEBUG   :     x20 00000000000000b2  x21 000000000000415a  x22 000000000000416b  x23 00000000ffffffff
+DEBUG   :     x20 00000000000000b2  x21 0000000000004106  x22 0000000000004117  x23 00000000ffffffff
+DEBUG   : Cmdline: com.android.nfc
+DEBUG   : uid: 1027
+DEBUG   : Build fingerprint: 'Gertec/SK-210/SK-210:13/TP1A.220624.014/616:user/dev-keys'
+DEBUG   :       #08 pc 000000000021096c  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+556) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : Revision: '0'
+DEBUG   :       #04 pc 00000000004757e4  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FatalError(_JNIEnv*, char const*)+196) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+DEBUG   :     x0  0000000000000000  x1  0000000000003ff8  x2  0000000000000006  x3  0000007c52145670
+DEBUG   :       #08 pc 000000000021096c  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+556) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : uid: 1027
+DEBUG   :     x8  00000000000000f0  x9  0000007f7a830a00  x10 0000000000000001  x11 0000007f7a871950
+DEBUG   :     lr  0000007f7a8622f4  sp  0000007c4bbcf650  pc  0000007f7a862324  pst 0000000000000000
+Exception Gedi: 46 00004 a função GEDI_BT_Connect retornou GEDI_RET_INVALID_PARAMETER
+DEBUG   :       #06 pc 00000000008b9f60  /system/app/NfcNci/oat/arm64/NfcNci.odex (art_jni_trampoline+128) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :       #06 pc 00000000008b9f60  /system/app/NfcNci/oat/arm64/NfcNci.odex (art_jni_trampoline+128) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :       #04 pc 00000000004757e4  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FatalError(_JNIEnv*, char const*)+196) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+at android.media.MediaPlayer.nativeSetDataSource(Native Method)
+Exception Gedi: 00 00004 a função GEDI_MainMenu retornou GEDI_RET_INVALID_PARAMETER
+DEBUG   :       #09 pc 000000000027af68  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+184) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+Exception Gedi: 15 00000 a função GEDI_SMART_WarmResetEMV retornou GEDI_RET_OK
+DEBUG   :     x24 0000007cb1c3f010  x25 0000000000015f90  x26 0000000000000000  x27 0000007ccf616000
+DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+Exception Gedi: 47 00000 a função GEDI_BT_Disconnect retornou GEDI_RET_OK
+DEBUG   :       #03 pc 0000000000016a84  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+356) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   :       #02 pc 0000000000017560  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+80) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   :       #03 pc 0000000000016a84  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+356) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   : Build fingerprint: 'Gertec/SK-210/SK-210:13/TP1A.220624.014/616:user/dev-keys'
+DEBUG   :     lr  0000007f7a8622f4  sp  0000007c52359650  pc  0000007f7a862324  pst 0000000000000000
+DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+at android.os.Looper.loopOnce(Looper.java:201)
+DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+DEBUG   :       #09 pc 000000000027af68  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+184) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :     x16 0000007f7a8dfd60  x17 0000007f7a8baa20  x18 0000007c4e0c8008  x19 00000000000000ac
+Exception Gedi: 20 00001 a função GEDI_USB_Open retornou GEDI_RET_FUNCTION_NOT_FOUND
+DEBUG   : Revision: '0'
+DEBUG   :     x8  00000000000000f0  x9  0000007f7a830a00  x10 0000000000000001  x11 0000007f7a871950
+DEBUG   :       #08 pc 000000000021096c  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+556) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #01 pc 000000000062bbbc  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1372) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :     lr  0000007f7a8622f4  sp  0000007c4f6fc650  pc  0000007f7a862324  pst 0000000000000000
+DEBUG   :     x16 0000007f7a8dfd60  x17 0000007f7a8baa20  x18 0000007c4b9ce008  x19 00000000000000ac
+Exception Gedi: 16 00011 a função GEDI_SMART_WarmResetISO retornou GEDI_RET_NOT_SUPPORTED
+Exception Gedi: 43 00004 a função GEDI_BT_ConfigGet retornou GEDI_RET_INVALID_PARAMETER
+DEBUG   :     x12 0000000001080cf0  x13 000000876ea4001c  x14 0031d416cab56de0  x15 0000000000000000
+DEBUG   :     x16 0000007f7a8dfd60  x17 0000007f7a8baa20  x18 0000007c4c3e0008  x19 00000000000000ac
+DEBUG   :       #02 pc 0000000000017560  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+80) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+Exception Gedi: 02 10001 a função GEDI_KMS_SelfTest retornou GEDI_RET_MODULE_NOT_FOUND
+DEBUG   :       #08 pc 000000000021096c  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+556) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+Exception Gedi: 23 00009 a função GEDI_USB_DataReceive retornou GEDI_RET_OUT_OF_BOUNDS
+DEBUG   : Revision: '0'
+DEBUG   :     x8  00000000000000f0  x9  0000007f7a830a00  x10 0000000000000001  x11 0000007f7a871950
+DEBUG   :       #00 pc 0000000000053324  /apex/com.android.runtime/lib64/bionic/libc.so (abort+180) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   : Timestamp: 2023-12-09 08:31:17.035670600-0300
+DEBUG   :     x16 0000007f7a8dfd60  x17 0000007f7a8baa20  x18 0000007c49248008  x19 00000000000000ac
+DEBUG   :     x0  0000000000000000  x1  00000000000041ce  x2  0000000000000006  x3  0000007c49e1b670
+DEBUG   : backtrace:
+DEBUG   :       #06 pc 00000000008b9f60  /system/app/NfcNci/oat/arm64/NfcNci.odex (art_jni_trampoline+128) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   : ABI: 'arm64'
+DEBUG   : Abort message: 'JNI FatalError called: enableInternal'
+DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+DEBUG   :     x12 0000000000fcbf80  x13 00000081a1b6c107  x14 001b2dbf587bca80  x15 0000000000000000
+DEBUG   :       #01 pc 000000000062bbbc  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1372) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #13 pc 0000000000054b50  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :       #03 pc 0000000000016a84  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+356) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   : pid: 16559, tid: 16576, name: enableInternal  >>> com.android.nfc <<<
+DEBUG   : ABI: 'arm64'
+DEBUG   :       #02 pc 0000000000017560  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+80) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   : uid: 1027
+Exception Gedi: 23 00008 a função GEDI_USB_DataReceive retornou GEDI_RET_BUFFER_NOT_ENOUGH
+DEBUG   :     x12 0000000001007746  x13 0000008390ab5177  x14 000d59b57e8e9e00  x15 0000000000000000
+Exception Gedi: 04 00004 a função GEDI_KMS_KCVGet retornou GEDI_RET_INVALID_PARAMETER
+DEBUG   : Process uptime: 92s
+Exception Gedi: 07 00006 a função GEDI_CRYPT_SecureZeroMemory retornou GEDI_RET_CANCELLED
+DEBUG   : Abort message: 'JNI FatalError called: enableInternal'
+DEBUG   :     x8  00000000000000f0  x9  0000007f7a830a00  x10 0000000000000001  x11 0000007f7a871950
+DEBUG   :     x8  00000000000000f0  x9  0000007f7a830a00  x10 0000000000000001  x11 0000007f7a871950
+Exception Gedi: 26 10000 a função GEDI_USB_StatusGet retornou GEDI_RET_PLATFORM_ERROR
+DEBUG   :       #07 pc 00000000006d3dd4  /system/app/NfcNci/oat/arm64/NfcNci.odex (com.android.nfc.NfcService$WatchDogThread.run+836) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :       #04 pc 00000000004757e4  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FatalError(_JNIEnv*, char const*)+196) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :     x0  0000000000000000  x1  000000000000406c  x2  0000000000000006  x3  0000007c4cffd670
+DEBUG   :     x24 0000007cb1c1f010  x25 0000000000015f90  x26 0000000000000000  x27 0000007ccf616000
+DEBUG   :       #04 pc 00000000004757e4  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FatalError(_JNIEnv*, char const*)+196) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+Exception Gedi: 22 00007 a função GEDI_USB_DataSend retornou GEDI_RET_COULD_NOT_ALLOCATE_MEMORY
+DEBUG   : backtrace:
+DEBUG   : ABI: 'arm64'
+Exception Gedi: 38 00002 a função GEDI_BT_DataSend retornou GEDI_RET_TEST_FAIL
+DEBUG   :       #10 pc 0000000000624aec  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+460) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #02 pc 0000000000017560  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+80) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   :       #05 pc 000000000003484c  /system/lib64/libnfc_nci_jni.so (android::nfcManager_doAbort(_JNIEnv*, _jobject*, _jstring*)+60) (BuildId: bcd5c29118ceec7089f2398532c4f353)
+DEBUG   :     x20 00000000000000b2  x21 0000000000003f74  x22 0000000000003f85  x23 00000000ffffffff
+DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+DEBUG   :     x4  0000000000003003  x5  0000000000003003  x6  0000000000003003  x7  0000000000003003
+DEBUG   :       #10 pc 0000000000624aec  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue 
+DEBUG   :       #01 pc 000000000062bbbc  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1372) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :     x8  00000000000000f0  x9  0000007f7a830a00  x10 0000000000000001  x11 0000007f7a871950
+DEBUG   :     x24 0000007cb1c1f010  x25 0000000000015f90  x26 0000000000000000  x27 0000007ccf616000
+DEBUG   : ABI: 'arm64'
+DEBUG   : Timestamp: 2023-12-09 08:17:35.750403474-0300
+Exception Gedi: 42 10000 a função GEDI_BT_ConfigSet retornou GEDI_RET_PLATFORM_ERROR     
+DEBUG   :       #13 pc 0000000000054b50  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   : Process uptime: 92s
+DEBUG   :     x24 0000007cb1c1f010  x25 0000000000015f90  x26 0000000000000000  x27 0000007ccf616000
+DEBUG   :     x0  0000000000000000  x1  00000000000041b2  x2  0000000000000006  x3  0000007c4cde7670
+DEBUG   :       #11 pc 000000000066dca0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1296) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : Cmdline: com.android.nfc
+DEBUG   : Revision: '0'
+DEBUG   :     x24 0000007cb1c1f010  x25 0000000000015f90  x26 0000000000000000  x27 0000007ccf616000
+DEBUG   :     x8  00000000000000f0  x9  0000007f7a830a00  x10 0000000000000001  x11 0000007f7a871950
+DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+DEBUG   : backtrace:
+DEBUG   :     x16 0000007f7a8dfd60  x17 0000007f7a8baa20  x18 0000007c4ca7a008  x19 00000000000000ac
+Exception Gedi: 43 10001 a função GEDI_BT_ConfigGet retornou GEDI_RET_MODULE_NOT_FOUND
+DEBUG   :       #03 pc 0000000000016a84  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+356) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   : Abort message: 'JNI FatalError called: enableInternal'
+libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 16747 (enableInternal), pid 16730 (com.android.nfc)
+DEBUG   :     x20 00000000000000b2  x21 00000000000040af  x22 00000000000040c0  x23 00000000ffffffff
+DEBUG   :       #10 pc 0000000000624aec  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+460) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :     x4  0000000000003003  x5  0000000000003003  x6  0000000000003003  x7  0000000000003003
+DEBUG   :       #06 pc 00000000008b9f60  /system/app/NfcNci/oat/arm64/NfcNci.odex (art_jni_trampoline+128) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+Exception Gedi: 47 00002 a função GEDI_BT_Disconnect retornou GEDI_RET_TEST_FAIL
+DEBUG   : Abort message: 'JNI FatalError called: enableInternal'
+DEBUG   :     x12 0000000001055672  x13 000000860d07919b  x14 001c9bf5af81fd40  x15 0000000000000000
+DEBUG   : Cmdline: com.android.nfc
+DEBUG   : uid: 1027
+DEBUG   :     x28 0000007ccec988a6  x29 0000007c4c2dc6f0
+DEBUG   :       #07 pc 00000000006d3dd4  /system/app/NfcNci/oat/arm64/NfcNci.odex (com.android.nfc.NfcService$WatchDogThread.run+836) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :       #00 pc 0000000000053324  /apex/com.android.runtime/lib64/bionic/libc.so (abort+180) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :       #12 pc 00000000000c1e50  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+208) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :     x8  00000000000000f0  x9  0000007f7a830a00  x10 0000000000000001  x11 0000007f7a871950
+DEBUG   :     x12 0000000000ffeffa  x13 0000008349f1fb04  x14 00388112791ddb20  x15 0000000000000000
+DEBUG   :       #08 pc 000000000021096c  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+556) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : Revision: '0'
+DEBUG   :       #00 pc 0000000000053324  /apex/com.android.runtime/lib64/bionic/libc.so (abort+180) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :     x4  0000000000003003  x5  0000000000003003  x6  0000000000003003  x7  0000000000003003
+DEBUG   :     x16 0000007f7a8dfd60  x17 0000007f7a8baa20  x18 0000007c4adf0008  x19 00000000000000ac
+DEBUG   :     x28 0000007ccec988a6  x29 0000007c4cde76f0
+DEBUG   :       #09 pc 000000000027af68  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+184) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+DEBUG   : uid: 1027
+Exception Gedi: 21 00005 a função GEDI_USB_Close retornou GEDI_RET_TIMEOUT
+DEBUG   : Timestamp: 2023-12-09 08:09:59.454549678-0300
+DEBUG   : Abort message: 'JNI FatalError called: enableInternal'
+DEBUG   :       #11 pc 000000000066dca0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1296) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : Timestamp: 2023-12-09 08:14:33.210802002-0300
+DEBUG   : uid: 1027
+DEBUG   : Cmdline: com.android.nfc
+Exception Gedi: 36 00008 a função GEDI_BT_ListenStart retornou GEDI_RET_BUFFER_NOT_ENOUGH
+Exception Gedi: 00 00007 a função GEDI_MainMenu retornou GEDI_RET_COULD_NOT_ALLOCATE_MEMORY
+Exception Gedi: 29 00005 a função GEDI_RS232_DataReceive retornou GEDI_RET_TIMEOUT
+DEBUG   : Abort message: 'JNI FatalError called: enableInternal'
+Exception Gedi: 21 10001 a função GEDI_USB_Close retornou GEDI_RET_MODULE_NOT_FOUND
+DEBUG   : uid: 1027
+DEBUG   :       #11 pc 000000000066dca0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1296) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+Exception Gedi: 14 00008 a função GEDI_SMART_ResetISO retornou GEDI_RET_BUFFER_NOT_ENOUGH
+DEBUG   : uid: 1027
+DEBUG   : Process uptime: 92s
+DEBUG   :       #04 pc 00000000004757e4  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FatalError(_JNIEnv*, char const*)+196) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : uid: 1027
+Exception Gedi: 08 10000 a função GEDI_KMS_EncryptData retornou GEDI_RET_PLATFORM_ERROR
+DEBUG   :       #13 pc 0000000000054b50  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+Exception Gedi: 42 00000 a função GEDI_BT_ConfigSet retornou GEDI_RET_OK
+DEBUG   :       #11 pc 000000000066dca0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1296) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :     x0  0000000000000000  x1  0000000000003f68  x2  0000000000000006  x3  0000007c4cd0e670
+DEBUG   :       #03 pc 0000000000016a84  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+356) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   :       #11 pc 000000000066dca0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1296) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+Exception Gedi: 25 00010 a função GEDI_USB_OperationModeSet retornou GEDI_RET_END_OF_LIST
+DEBUG   :     x12 000000000106f5a4  x13 00000086e1267abf  x14 000dd3c7bfd31d00  x15 0000000000000000
+DEBUG   :       #02 pc 0000000000017560  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+80) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   :     x20 00000000000000b2  x21 000000000000417f  x22 0000000000004196  x23 00000000ffffffff
+DEBUG   : Abort message: 'JNI FatalError called: enableInternal'
+DEBUG   :       #04 pc 00000000004757e4  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FatalError(_JNIEnv*, char const*)+196) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : pid: 16359, tid: 16376, name: enableInternal  >>> com.android.nfc <<<
+Exception Gedi: 34 00009 a função GEDI_BT_Enable retornou GEDI_RET_OUT_OF_BOUNDS
+DEBUG   :       #05 pc 000000000003484c  /system/lib64/libnfc_nci_jni.so (android::nfcManager_doAbort(_JNIEnv*, _jobject*, _jstring*)+60) (BuildId: bcd5c29118ceec7089f2398532c4f353)
+Exception Gedi: 35 00007 a função GEDI_BT_Disable retornou GEDI_RET_COULD_NOT_ALLOCATE_MEMORY
+DEBUG   :       #01 pc 000000000062bbbc  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1372) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #02 pc 0000000000017560  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+80) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   :       #04 pc 00000000004757e4  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FatalError(_JNIEnv*, char const*)+196) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #13 pc 0000000000054b50  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+Exception Gedi: 33 00003 a função GEDI_RS232_Close retornou GEDI_RET_NULL_PARAMETER
+Exception Gedi: 15 00008 a função GEDI_SMART_WarmResetEMV retornou GEDI_RET_BUFFER_NOT_ENOUGH
+DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+DEBUG   :     x4  0000000000003003  x5  0000000000003003  x6  0000000000003003  x7  0000000000003003
+DEBUG   : Build fingerprint: 'Gertec/SK-210/SK-210:13/TP1A.220624.014/616:user/dev-keys'
+DEBUG   : Timestamp: 2023-12-09 08:26:43.275181122-0300
+DEBUG   :     x4  0000000000003003  x5  0000000000003003  x6  0000000000003003  x7  0000000000003003
+Exception Gedi: 41 00009 a função GEDI_BT_ConnectionInfoGet retornou GEDI_RET_OUT_OF_BOUNDS
+Exception Gedi: 32 00008 a função GEDI_RS232_Flush retornou GEDI_RET_BUFFER_NOT_ENOUGH
+Exception Gedi: 31 00011 a função GEDI_RS232_CTSGet retornou GEDI_RET_NOT_SUPPORTED
+DEBUG   :       #00 pc 0000000000053324  /apex/com.android.runtime/lib64/bionic/libc.so (abort+180) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   : Cmdline: com.android.nfc
+DEBUG   :     x28 0000007ccec988a6  x29 0000007c523596f0
+DEBUG   : uid: 1027
+DEBUG   :       #10 pc 0000000000624aec  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue 
+DEBUG   : Cmdline: com.android.nfc
+DEBUG   :       #11 pc 000000000066dca0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1296) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+Exception Gedi: 17 00007 a função GEDI_SMART_CommonReset retornou GEDI_RET_COULD_NOT_ALLOCATE_MEMORY
+DEBUG   :     x24 0000007cb1c1f010  x25 0000000000015f90  x26 0000000000000000  x27 0000007ccf616000
+Exception Gedi: 33 00004 a função GEDI_RS232_Close retornou GEDI_RET_INVALID_PARAMETER
+DEBUG   :     lr  0000007f7a8622f4  sp  0000007c4eb75650  pc  0000007f7a862324  pst 0000000000000000
+DEBUG   :       #10 pc 0000000000624aec  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue 
+DEBUG   :     x16 0000007f7a8dfd60  x17 0000007f7a8baa20  x18 0000007c4ec3e008  x19 00000000000000ac
+Exception Gedi: 00 00010 a função GEDI_MainMenu retornou GEDI_RET_END_OF_LIST
+at com.android.systemui.qs.tileimpl.QSTileImpl.handleRefreshState(QSTileImpl.java:433)
+DEBUG   : Build fingerprint: 'Gertec/SK-210/SK-210:13/TP1A.220624.014/616:user/dev-keys'
+DEBUG   :       #04 pc 00000000004757e4  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FatalError(_JNIEnv*, char const*)+196) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #11 pc 000000000066dca0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1296) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 16404 (enableInternal), pid 16387 (com.android.nfc)
+DEBUG   : uid: 1027
+DEBUG   :       #04 pc 00000000004757e4  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FatalError(_JNIEnv*, char const*)+196) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #01 pc 000000000062bbbc  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1372) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :     lr  0000007f7a8622f4  sp  0000007c4b618650  pc  0000007f7a862324  pst 0000000000000000
+DEBUG   :     x24 0000007cb1c3f010  x25 0000000000015f90  x26 0000000000000000  x27 0000007ccf616000
+DEBUG   :       #01 pc 000000000062bbbc  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1372) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : Revision: '0'
+DEBUG   : backtrace:
+DEBUG   : ABI: 'arm64'
+DEBUG   : Revision: '0'
+Exception Gedi: 36 00001 a função GEDI_BT_ListenStart retornou GEDI_RET_FUNCTION_NOT_FOUND
+DEBUG   :     x24 0000007cb1c1f010  x25 0000000000015f90  x26 0000000000000000  x27 0000007ccf616000
+DEBUG   :       #05 pc 000000000003484c  /system/lib64/libnfc_nci_jni.so (android::nfcManager_doAbort(_JNIEnv*, _jobject*, _jstring*)+60) (BuildId: bcd5c29118ceec7089f2398532c4f353)
+DEBUG   :     x4  0000000000003003  x5  0000000000003003  x6  0000000000003003  x7  0000000000003003
+DEBUG   :     x16 0000007f7a8dfd60  x17 0000007f7a8baa20  x18 0000007c4e7f0008  x19 00000000000000ac
+DEBUG   : Build fingerprint: 'Gertec/SK-210/SK-210:13/TP1A.220624.014/616:user/dev-keys'
+DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+DEBUG   :     lr  0000007f7a8622f4  sp  0000007c52145650  pc  0000007f7a862324  pst 0000000000000000
+DEBUG   : uid: 1027
+DEBUG   : ABI: 'arm64'
+DEBUG   :     x0  0000000000000000  x1  00000000000040f8  x2  0000000000000006  x3  0000007c50493670
+DEBUG   : backtrace:
+DEBUG   :       #00 pc 0000000000053324  /apex/com.android.runtime/lib64/bionic/libc.so (abort+180) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+Exception Gedi: 27 00000 a função GEDI_RS232_Open retornou GEDI_RET_OK
+DEBUG   :       #10 pc 0000000000624aec  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+460) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #13 pc 0000000000054b50  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :       #08 pc 000000000021096c  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+556) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : Abort message: 'JNI FatalError called: enableInternal'
+DEBUG   :       #13 pc 0000000000054b50  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+DEBUG   :       #07 pc 00000000006d3dd4  /system/app/NfcNci/oat/arm64/NfcNci.odex (com.android.nfc.NfcService$WatchDogThread.run+836) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :       #02 pc 0000000000017560  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+80) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   : Cmdline: com.android.nfc
+Exception Gedi: 16 00004 a função GEDI_SMART_WarmResetISO retornou GEDI_RET_INVALID_PARAMETER
+DEBUG   :     lr  0000007f7a8622f4  sp  0000007c4830b650  pc  0000007f7a862324  pst 0000000000000000
+DEBUG   :     x24 0000007cb1c3f010  x25 0000000000015f90  x26 0000000000000000  x27 0000007ccf616000
+DEBUG   : Abort message: 'JNI FatalError called: enableInternal'
+DEBUG   : Build fingerprint: 'Gertec/SK-210/SK-210:13/TP1A.220624.014/616:user/dev-keys'
+DEBUG   : Cmdline: com.android.nfc
+DEBUG   :       #05 pc 000000000003484c  /system/lib64/libnfc_nci_jni.so (android::nfcManager_doAbort(_JNIEnv*, _jobject*, _jstring*)+60) (BuildId: bcd5c29118ceec7089f2398532c4f353)
+DEBUG   :     x12 0000000001066b82  x13 000000869a6ebdc0  x14 0039b23fba628900  x15 0000000000000000
+DEBUG   :       #00 pc 0000000000053324  /apex/com.android.runtime/lib64/bionic/libc.so (abort+180) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+Exception Gedi: 26 00000 a função GEDI_USB_StatusGet retornou GEDI_RET_OK
+DEBUG   :     x16 0000007f7a8dfd60  x17 0000007f7a8baa20  x18 0000007c50c7e008  x19 00000000000000ac
+DEBUG   :       #05 pc 000000000003484c  /system/lib64/libnfc_nci_jni.so (android::nfcManager_doAbort(_JNIEnv*, _jobject*, _jstring*)+60) (BuildId: bcd5c29118ceec7089f2398532c4f353)
+DEBUG   :       #00 pc 0000000000053324  /apex/com.android.runtime/lib64/bionic/libc.so (abort+180) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :       #07 pc 00000000006d3dd4  /system/app/NfcNci/oat/arm64/NfcNci.odex (com.android.nfc.NfcService$WatchDogThread.run+836) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :     x16 0000007f7a8dfd60  x17 0000007f7a8baa20  x18 0000007c4bfc0008  x19 00000000000000ac
+libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 16632 (enableInternal), pid 16615 (com.android.nfc)
+DEBUG   :       #12 pc 00000000000c1e50  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+208) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :     x28 0000007ccec988a6  x29 0000007c4abd86f0
+Exception Gedi: 35 00009 a função GEDI_BT_Disable retornou GEDI_RET_OUT_OF_BOUNDS
+DEBUG   :       #10 pc 0000000000624aec  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue 
+DEBUG   :       #13 pc 0000000000054b50  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   : Timestamp: 2023-12-09 08:32:48.269329144-0300
+DEBUG   :     x12 0000000001032d70  x13 00000084f230445c  x14 001b6ac899c039e0  x15 0000000000000000
+Exception Gedi: 29 10000 a função GEDI_RS232_DataReceive retornou GEDI_RET_PLATFORM_ERROR
+Exception Gedi: 49 00002 a função GEDI_CL_PowerOff retornou GEDI_RET_TEST_FAIL
+DEBUG   : Revision: '0'
+DEBUG   : backtrace:
+DEBUG   : Build fingerprint: 'Gertec/SK-210/SK-210:13/TP1A.220624.014/616:user/dev-keys'
+DEBUG   :       #12 pc 00000000000c1e50  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+208) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :       #06 pc 00000000008b9f60  /system/app/NfcNci/oat/arm64/NfcNci.odex (art_jni_trampoline+128) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :       #05 pc 000000000003484c  /system/lib64/libnfc_nci_jni.so (android::nfcManager_doAbort(_JNIEnv*, _jobject*, _jstring*)+60) (BuildId: bcd5c29118ceec7089f2398532c4f353)
+DEBUG   :       #08 pc 000000000021096c  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+556) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+Exception Gedi: 38 00006 a função GEDI_BT_DataSend retornou GEDI_RET_CANCELLED
+Exception Gedi: 28 00006 a função GEDI_RS232_DataSend retornou GEDI_RET_CANCELLED
+Exception Gedi: 11 00004 a função GEDI_SMART_Status retornou GEDI_RET_INVALID_PARAMETER
+DEBUG   : Timestamp: 2023-12-09 08:02:23.184673266-0300
+DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+Exception Gedi: 02 00004 a função GEDI_KMS_SelfTest retornou GEDI_RET_INVALID_PARAMETER
+DEBUG   : Abort message: 'JNI FatalError called: enableInternal'
+Exception Gedi: 22 00005 a função GEDI_USB_DataSend retornou GEDI_RET_TIMEOUT
+DEBUG   :       #02 pc 0000000000017560  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+80) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   : uid: 1027
+DEBUG   : uid: 1027
+Exception Gedi: 29 00008 a função GEDI_RS232_DataReceive retornou GEDI_RET_BUFFER_NOT_ENOUGH
+Exception Gedi: 29 00009 a função GEDI_RS232_DataReceive retornou GEDI_RET_OUT_OF_BOUNDS
+DEBUG   : Timestamp: 2023-12-09 08:23:40.725975188-0300
+DEBUG   : pid: 16502, tid: 16519, name: enableInternal  >>> com.android.nfc <<<
+Exception Gedi: 49 00002 a função GEDI_CL_PowerOff retornou GEDI_RET_TEST_FAIL
+DEBUG   :       #04 pc 00000000004757e4  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FatalError(_JNIEnv*, char const*)+196) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :     x8  00000000000000f0  x9  0000007f7a830a00  x10 0000000000000001  x11 0000007f7a871950
+DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+DEBUG   : uid: 1027
+DEBUG   :     x4  0000000000003003  x5  0000000000003003  x6  0000000000003003  x7  0000000000003003
+DEBUG   : Process uptime: 91s
+DEBUG   :       #03 pc 0000000000016a84  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+356) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+Exception Gedi: 09 00009 a função GEDI_KMS_CapturePIN retornou GEDI_RET_OUT_OF_BOUNDS    
+DEBUG   :       #01 pc 000000000062bbbc  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1372) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :     x20 00000000000000b2  x21 000000000000405b  x22 000000000000406c  x23 00000000ffffffff
+Exception Gedi: 15 00006 a função GEDI_SMART_WarmResetEMV retornou GEDI_RET_CANCELLED
+DEBUG   :     lr  0000007f7a8622f4  sp  0000007c4f179650  pc  0000007f7a862324  pst 0000000000000000
+DEBUG   :     x20 00000000000000b2  x21 0000000000003fe7  x22 0000000000003ff8  x23 00000000ffffffff
+Exception Gedi: 22 10000 a função GEDI_USB_DataSend retornou GEDI_RET_PLATFORM_ERROR
+DEBUG   :     x28 0000007ccec988a6  x29 0000007c4c8f86f0
+DEBUG   :     x20 00000000000000b2  x21 0000000000003f01  x22 0000000000003f12  x23 00000000ffffffff
+DEBUG   :       #07 pc 00000000006d3dd4  /system/app/NfcNci/oat/arm64/NfcNci.odex (com.android.nfc.NfcService$WatchDogThread.run+836) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   : uid: 1027
+DEBUG   :       #11 pc 000000000066dca0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1296) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+Exception Gedi: 47 00008 a função GEDI_BT_Disconnect retornou GEDI_RET_BUFFER_NOT_ENOUGH
+DEBUG   : Build fingerprint: 'Gertec/SK-210/SK-210:13/TP1A.220624.014/616:user/dev-keys'
+at com.android.systemui.qs.tileimpl.QSTileImpl$H.handleMessage(QSTileImpl.java:606)
+DEBUG   :       #06 pc 00000000008b9f60  /system/app/NfcNci/oat/arm64/NfcNci.odex (art_jni_trampoline+128) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   : Process uptime: 92s
+DEBUG   :     x20 00000000000000b2  x21 00000000000041bd  x22 00000000000041ce  x23 00000000ffffffff
+DEBUG   : pid: 16531, tid: 16548, name: enableInternal  >>> com.android.nfc <<<
+DEBUG   :     x16 0000007f7a8dfd60  x17 0000007f7a8baa20  x18 0000007c4a1ec008  x19 00000000000000ac
+DEBUG   :       #03 pc 0000000000016a84  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+356) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   : Abort message: 'JNI FatalError called: enableInternal'
+DEBUG   :       #03 pc 0000000000016a84  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+356) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   :     x24 0000007cb1c3f010  x25 0000000000015f90  x26 0000000000000000  x27 0000007ccf616000
+DEBUG   : Build fingerprint: 'Gertec/SK-210/SK-210:13/TP1A.220624.014/616:user/dev-keys'
+DEBUG   :       #13 pc 0000000000054b50  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 16376 (enableInternal), pid 16359 (com.android.nfc)
+DEBUG   : Cmdline: com.android.nfc
+DEBUG   : Cmdline: com.android.nfc
+DEBUG   : Cmdline: com.android.nfc
+DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+Exception Gedi: 27 00008 a função GEDI_RS232_Open retornou GEDI_RET_BUFFER_NOT_ENOUGH
+DEBUG   : backtrace:
+Exception Gedi: 35 00002 a função GEDI_BT_Disable retornou GEDI_RET_TEST_FAIL
+DEBUG   :       #08 pc 000000000021096c  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+556) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : Timestamp: 2023-12-09 07:59:20.699146486-0300
+DEBUG   :       #13 pc 0000000000054b50  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+Exception Gedi: 30 00000 a função GEDI_RS232_RTSSet retornou GEDI_RET_OK
+Exception Gedi: 41 00009 a função GEDI_BT_ConnectionInfoGet retornou GEDI_RET_OUT_OF_BOUNDS
+DEBUG   : Cmdline: com.android.nfc
+libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 16690 (enableInternal), pid 16673 (com.android.nfc)
+DEBUG   :       #00 pc 0000000000053324  /apex/com.android.runtime/lib64/bionic/libc.so (abort+180) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :     x4  0000000000003003  x5  0000000000003003  x6  0000000000003003  x7  0000000000003003
+DEBUG   :       #10 pc 0000000000624aec  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue 
+DEBUG   :     x8  00000000000000f0  x9  0000007f7a830a00  x10 0000000000000001  x11 0000007f7a871950
+DEBUG   :       #07 pc 00000000006d3dd4  /system/app/NfcNci/oat/arm64/NfcNci.odex (com.android.nfc.NfcService$WatchDogThread.run+836) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   : pid: 16215, tid: 16232, name: enableInternal  >>> com.android.nfc <<<
+DEBUG   :     x20 00000000000000b2  x21 0000000000003f1f  x22 0000000000003f30  x23 00000000ffffffff
+DEBUG   :       #07 pc 00000000006d3dd4  /system/app/NfcNci/oat/arm64/NfcNci.odex (com.android.nfc.NfcService$WatchDogThread.run+836) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 16463 (enableInternal), pid 16446 (com.android.nfc)
+DEBUG   : Cmdline: com.android.nfc
+DEBUG   :     x28 0000007ccec988a6  x29 0000007c4cffd6f0
+DEBUG   :       #06 pc 00000000008b9f60  /system/app/NfcNci/oat/arm64/NfcNci.odex (art_jni_trampoline+128) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 16875 (enableInternal), pid 16858 (com.android.nfc)
+DEBUG   : Abort message: 'JNI FatalError called: enableInternal'
+DEBUG   :     x0  0000000000000000  x1  0000000000003f30  x2  0000000000000006  x3  0000007c4b618670
+DEBUG   : uid: 1027
+DEBUG   :     x0  0000000000000000  x1  000000000000414e  x2  0000000000000006  x3  0000007c4bbcf670
+DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+DEBUG   :       #07 pc 00000000006d3dd4  /system/app/NfcNci/oat/arm64/NfcNci.odex (com.android.nfc.NfcService$WatchDogThread.run+836) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :       #00 pc 0000000000053324  /apex/com.android.runtime/lib64/bionic/libc.so (abort+180) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :     x28 0000007ccec988a6  x29 0000007c4cd0e6f0
+DEBUG   :     x12 000000000105e06a  x13 0000008653bb43ff  x14 002b271ab4f24320  x15 0000000000000000
+DEBUG   :     x0  0000000000000000  x1  00000000000040a4  x2  0000000000000006  x3  0000007c4830b670
+DEBUG   :     x4  0000000000003003  x5  0000000000003003  x6  0000000000003003  x7  0000000000003003
+DEBUG   : backtrace:
+DEBUG   : Cmdline: com.android.nfc
+DEBUG   :       #09 pc 000000000027af68  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+184) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #04 pc 00000000004757e4  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FatalError(_JNIEnv*, char const*)+196) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #12 pc 00000000000c1e50  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+208) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+Exception Gedi: 03 00008 a função GEDI_KMS_KeyPresenceTest retornou GEDI_RET_BUFFER_NOT_ENOUGH
+DEBUG   :       #07 pc 00000000006d3dd4  /system/app/NfcNci/oat/arm64/NfcNci.odex (com.android.nfc.NfcService$WatchDogThread.run+836) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :       #01 pc 000000000062bbbc  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1372) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #11 pc 000000000066dca0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1296) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 16432 (enableInternal), pid 16415 (com.android.nfc)
+DEBUG   : backtrace:
+Exception Gedi: 47 00003 a função GEDI_BT_Disconnect retornou GEDI_RET_NULL_PARAMETER
+DEBUG   : ABI: 'arm64'
+DEBUG   :     lr  0000007f7a8622f4  sp  0000007c4abd8650  pc  0000007f7a862324  pst 0000000000000000
+DEBUG   :       #11 pc 000000000066dca0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1296) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #03 pc 0000000000016a84  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+356) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   :       #03 pc 0000000000016a84  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+356) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+at android.media.MediaPlayer.setDataSource(MediaPlayer.java:1026)
+DEBUG   :     x20 00000000000000b2  x21 0000000000003f91  x22 0000000000003fa2  x23 00000000ffffffff
+DEBUG   :     x28 0000007ccec988a6  x29 0000007c4830b6f0
+DEBUG   :     x0  0000000000000000  x1  00000000000041eb  x2  0000000000000006  x3  0000007c51cbd670
+DEBUG   :       #06 pc 00000000008b9f60  /system/app/NfcNci/oat/arm64/NfcNci.odex (art_jni_trampoline+128) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :       #04 pc 00000000004757e4  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FatalError(_JNIEnv*, char const*)+196) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+Exception Gedi: 04 00007 a função GEDI_KMS_KCVGet retornou GEDI_RET_COULD_NOT_ALLOCATE_MEMORY
+DEBUG   : Process uptime: 91s
+DEBUG   : Build fingerprint: 'Gertec/SK-210/SK-210:13/TP1A.220624.014/616:user/dev-keys'
+DEBUG   :     x28 0000007ccec988a6  x29 0000007c51cbd6f0
+DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+DEBUG   :     x16 0000007f7a8dfd60  x17 0000007f7a8baa20  x18 0000007c4be0a008  x19 00000000000000ac
+DEBUG   :     x8  00000000000000f0  x9  0000007f7a830a00  x10 0000000000000001  x11 0000007f7a871950
+DEBUG   : Process uptime: 92s
+DEBUG   : ABI: 'arm64'
+Exception Gedi: 27 00007 a função GEDI_RS232_Open retornou GEDI_RET_COULD_NOT_ALLOCATE_MEMORY
+DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+Exception Gedi: 15 10001 a função GEDI_SMART_WarmResetEMV retornou GEDI_RET_MODULE_NOT_FOUND
+Exception Gedi: 50 00004 a função GEDI_CL_PowerReset retornou GEDI_RET_INVALID_PARAMETER
+DEBUG   :       #06 pc 00000000008b9f60  /system/app/NfcNci/oat/arm64/NfcNci.odex (art_jni_trampoline+128) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   : Abort message: 'JNI FatalError called: enableInternal'
+DEBUG   :     x16 0000007f7a8dfd60  x17 0000007f7a8baa20  x18 0000007c4addc008  x19 00000000000000ac
+DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+DEBUG   :     x20 00000000000000b2  x21 0000000000004076  x22 0000000000004087  x23 00000000ffffffff
+DEBUG   :       #01 pc 000000000062bbbc  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1372) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :     x4  0000000000003003  x5  0000000000003003  x6  0000000000003003  x7  0000000000003003
+DEBUG   :     lr  0000007f7a8622f4  sp  0000007c4c8f8650  pc  0000007f7a862324  pst 0000000000000000
+DEBUG   :     x20 00000000000000b2  x21 0000000000003f3b  x22 0000000000003f4c  x23 00000000ffffffff
+DEBUG   :       #06 pc 00000000008b9f60  /system/app/NfcNci/oat/arm64/NfcNci.odex (art_jni_trampoline+128) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :       #13 pc 0000000000054b50  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :     x0  0000000000000000  x1  0000000000004030  x2  0000000000000006  x3  0000007c4eccb670
+Exception Gedi: 42 00000 a função GEDI_BT_ConfigSet retornou GEDI_RET_OK
+DEBUG   :       #12 pc 00000000000c1e50  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+208) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :       #04 pc 00000000004757e4  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FatalError(_JNIEnv*, char const*)+196) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : pid: 16330, tid: 16347, name: enableInternal  >>> com.android.nfc <<<
+DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+DEBUG   :       #05 pc 000000000003484c  /system/lib64/libnfc_nci_jni.so (android::nfcManager_doAbort(_JNIEnv*, _jobject*, _jstring*)+60) (BuildId: bcd5c29118ceec7089f2398532c4f353)
+DEBUG   :       #09 pc 000000000027af68  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+184) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #09 pc 000000000027af68  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+184) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :     x4  0000000000003003  x5  0000000000003003  x6  0000000000003003  x7  0000000000003003
+DEBUG   :       #06 pc 00000000008b9f60  /system/app/NfcNci/oat/arm64/NfcNci.odex (art_jni_trampoline+128) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :       #13 pc 0000000000054b50  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+Exception Gedi: 22 10000 a função GEDI_USB_DataSend retornou GEDI_RET_PLATFORM_ERROR
+DEBUG   :       #05 pc 000000000003484c  /system/lib64/libnfc_nci_jni.so (android::nfcManager_doAbort(_JNIEnv*, _jobject*, _jstring*)+60) (BuildId: bcd5c29118ceec7089f2398532c4f353)
+DEBUG   :     x8  00000000000000f0  x9  0000007f7a830a00  x10 0000000000000001  x11 0000007f7a871950
+DEBUG   :       #06 pc 00000000008b9f60  /system/app/NfcNci/oat/arm64/NfcNci.odex (art_jni_trampoline+128) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :       #08 pc 000000000021096c  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+556) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #10 pc 0000000000624aec  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue 
+DEBUG   :     x12 0000000001018fda  x13 000000841e10f0ec  x14 0029f5ed896f0a80  x15 0000000000000000
+DEBUG   : Timestamp: 2023-12-09 08:05:25.703169354-0300
+DEBUG   :     x20 00000000000000b2  x21 0000000000003f57  x22 0000000000003f68  x23 00000000ffffffff
+DEBUG   :     x12 0000000000ff67ca  x13 00000083033d7c2c  x14 0029b8e473ad85a0  x15 0000000000000000
+DEBUG   : Timestamp: 2023-12-09 07:56:18.208450860-0300
+DEBUG   :     x24 0000007cb1c3f010  x25 0000000000015f90  x26 0000000000000000  x27 0000007ccf616000
+Exception Gedi: 29 00000 a função GEDI_RS232_DataReceive retornou GEDI_RET_OK
+DEBUG   :     x8  00000000000000f0  x9  0000007f7a830a00  x10 0000000000000001  x11 0000007f7a871950
+Exception Gedi: 24 00010 a função GEDI_USB_Flush retornou GEDI_RET_END_OF_LIST
+DEBUG   :       #09 pc 000000000027af68  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+184) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+Exception Gedi: 05 00004 a função GEDI_KMS_DUKPTKSNGet retornou GEDI_RET_INVALID_PARAMETER
+DEBUG   :     x8  00000000000000f0  x9  0000007f7a830a00  x10 0000000000000001  x11 0000007f7a871950
+DEBUG   :       #02 pc 0000000000017560  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+80) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   :     x4  0000000000003003  x5  0000000000003003  x6  0000000000003003  x7  0000000000003003
+DEBUG   : Process uptime: 92s
+DEBUG   :       #09 pc 000000000027af68  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+184) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #04 pc 00000000004757e4  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FatalError(_JNIEnv*, char const*)+196) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #05 pc 000000000003484c  /system/lib64/libnfc_nci_jni.so (android::nfcManager_doAbort(_JNIEnv*, _jobject*, _jstring*)+60) (BuildId: bcd5c29118ceec7089f2398532c4f353)
+Exception Gedi: 36 00005 a função GEDI_BT_ListenStart retornou GEDI_RET_TIMEOUT
+DEBUG   :       #06 pc 00000000008b9f60  /system/app/NfcNci/oat/arm64/NfcNci.odex (art_jni_trampoline+128) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :       #05 pc 000000000003484c  /system/lib64/libnfc_nci_jni.so (android::nfcManager_doAbort(_JNIEnv*, _jobject*, _jstring*)+60) (BuildId: bcd5c29118ceec7089f2398532c4f353)
+Exception Gedi: 34 00011 a função GEDI_BT_Enable retornou GEDI_RET_NOT_SUPPORTED
+DEBUG   : backtrace:
+Exception Gedi: 44 00009 a função GEDI_BT_PairedListGet retornou GEDI_RET_OUT_OF_BOUNDS
+Exception Gedi: 02 00004 a função GEDI_KMS_SelfTest retornou GEDI_RET_INVALID_PARAMETER
+DEBUG   :       #06 pc 00000000008b9f60  /system/app/NfcNci/oat/arm64/NfcNci.odex (art_jni_trampoline+128) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   : Build fingerprint: 'Gertec/SK-210/SK-210:13/TP1A.220624.014/616:user/dev-keys'
+DEBUG   :       #08 pc 000000000021096c  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+556) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+Exception Gedi: 05 00004 a função GEDI_KMS_DUKPTKSNGet retornou GEDI_RET_INVALID_PARAMETER
+Exception Gedi: 19 00002 a função GEDI_USB_VidPidGet retornou GEDI_RET_TEST_FAIL
+DEBUG   : Abort message: 'JNI FatalError called: enableInternal'
+DEBUG   :       #00 pc 0000000000053324  /apex/com.android.runtime/lib64/bionic/libc.so (abort+180) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :       #03 pc 0000000000016a84  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+356) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+Exception Gedi: 25 00010 a função GEDI_USB_OperationModeSet retornou GEDI_RET_END_OF_LIST
+DEBUG   :     x8  00000000000000f0  x9  0000007f7a830a00  x10 0000000000000001  x11 0000007f7a871950
+DEBUG   : Build fingerprint: 'Gertec/SK-210/SK-210:13/TP1A.220624.014/616:user/dev-keys'
+Exception Gedi: 23 00010 a função GEDI_USB_DataReceive retornou GEDI_RET_END_OF_LIST
+DEBUG   :       #03 pc 0000000000016a84  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+356) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   : Process uptime: 92s
+DEBUG   : Process uptime: 91s
+DEBUG   :       #00 pc 0000000000053324  /apex/com.android.runtime/lib64/bionic/libc.so (abort+180) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :       #01 pc 000000000062bbbc  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1372) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #06 pc 00000000008b9f60  /system/app/NfcNci/oat/arm64/NfcNci.odex (art_jni_trampoline+128) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+Exception Gedi: 28 00008 a função GEDI_RS232_DataSend retornou GEDI_RET_BUFFER_NOT_ENOUGH
+Exception Gedi: 32 00009 a função GEDI_RS232_Flush retornou GEDI_RET_OUT_OF_BOUNDS
+DEBUG   :     lr  0000007f7a8622f4  sp  0000007c48c88650  pc  0000007f7a862324  pst 0000000000000000
+DEBUG   :       #06 pc 00000000008b9f60  /system/app/NfcNci/oat/arm64/NfcNci.odex (art_jni_trampoline+128) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :       #06 pc 00000000008b9f60  /system/app/NfcNci/oat/arm64/NfcNci.odex (art_jni_trampoline+128) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :       #12 pc 00000000000c1e50  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+208) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   : ABI: 'arm64'
+Exception Gedi: 22 00000 a função GEDI_USB_DataSend retornou GEDI_RET_OK
+DEBUG   :     x0  0000000000000000  x1  00000000000040c0  x2  0000000000000006  x3  0000007c4c2dc670
+DEBUG   :       #06 pc 00000000008b9f60  /system/app/NfcNci/oat/arm64/NfcNci.odex (art_jni_trampoline+128) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :     x12 0000000001092288  x13 00000087fc0323cb  x14 0010ed3cd5955d60  x15 0000000000000000
+DEBUG   :       #12 pc 00000000000c1e50  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+208) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   : Timestamp: 2023-12-09 08:00:51.938164107-0300
+Exception Gedi: 47 00000 a função GEDI_BT_Disconnect retornou GEDI_RET_OK
+DEBUG   :     x24 0000007cb1c1f010  x25 0000000000015f90  x26 0000000000000000  x27 0000007ccf616000
+DEBUG   : Abort message: 'JNI FatalError called: enableInternal'
+DEBUG   :     x4  0000000000003003  x5  0000000000003003  x6  0000000000003003  x7  0000000000003003
+DEBUG   :       #06 pc 00000000008b9f60  /system/app/NfcNci/oat/arm64/NfcNci.odex (art_jni_trampoline+128) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :       #10 pc 0000000000624aec  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+460) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : Process uptime: 92s
+DEBUG   :       #09 pc 000000000027af68  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+184) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : backtrace:
+DEBUG   : Abort message: 'JNI FatalError called: enableInternal'
+Exception Gedi: 11 00009 a função GEDI_SMART_Status retornou GEDI_RET_OUT_OF_BOUNDS
+DEBUG   : Process uptime: 92s
+DEBUG   :     x4  0000068800000898  x5  0000068800000898  x6  0000068800000898  x7  00000bc6000004a4
+DEBUG   :       #09 pc 000000000027af68  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+184) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #09 pc 000000000027af68  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+184) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #00 pc 0000000000053324  /apex/com.android.runtime/lib64/bionic/libc.so (abort+180) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :       #10 pc 0000000000624aec  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue 
+DEBUG   :       #02 pc 0000000000017560  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+80) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   : Revision: '0'
+DEBUG   : Cmdline: com.android.nfc
+DEBUG   :       #07 pc 00000000006d3dd4  /system/app/NfcNci/oat/arm64/NfcNci.odex (com.android.nfc.NfcService$WatchDogThread.run+836) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+DEBUG   :       #11 pc 000000000066dca0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1296) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : Cmdline: com.android.nfc
+DEBUG   : uid: 1027
+at android.media.MediaPlayer.setDataSource(MediaPlayer.java:1094)
+DEBUG   :     x8  00000000000000f0  x9  0000007f7a830a00  x10 0000000000000001  x11 0000007f7a871950
+libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 16261 (enableInternal), pid 16244 (com.android.nfc)
+DEBUG   :       #08 pc 000000000021096c  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+556) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 16519 (enableInternal), pid 16502 (com.android.nfc)
+DEBUG   : ABI: 'arm64'
+DEBUG   :       #10 pc 0000000000624aec  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+460) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :     x16 0000007f7a8dfd60  x17 0000007f7a8baa20  x18 0000007c4fe7e008  x19 00000000000000ac
+DEBUG   : pid: 16646, tid: 16663, name: enableInternal  >>> com.android.nfc <<<
+DEBUG   :       #08 pc 000000000021096c  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+556) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+Exception Gedi: 24 10001 a função GEDI_USB_Flush retornou GEDI_RET_MODULE_NOT_FOUND
+DEBUG   : Build fingerprint: 'Gertec/SK-210/SK-210:13/TP1A.220624.014/616:user/dev-keys'
+DEBUG   :     x20 00000000000000b2  x21 00000000000040e7  x22 00000000000040f8  x23 00000000ffffffff
+DEBUG   :     x16 0000007f7a8dfd60  x17 0000007f7a8baa20  x18 0000007c4f23e008  x19 00000000000000ac
+DEBUG   :       #07 pc 00000000006d3dd4  /system/app/NfcNci/oat/arm64/NfcNci.odex (com.android.nfc.NfcService$WatchDogThread.run+836) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :       #03 pc 0000000000016a84  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+356) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+Exception Gedi: 27 00008 a função GEDI_RS232_Open retornou GEDI_RET_BUFFER_NOT_ENOUGH
+Exception Gedi: 13 10001 a função GEDI_SMART_ResetEMV retornou GEDI_RET_MODULE_NOT_FOUND 
+DEBUG   :       #02 pc 0000000000017560  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+80) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 16492 (enableInternal), pid 16475 (com.android.nfc)
+DEBUG   :       #11 pc 000000000066dca0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1296) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #09 pc 000000000027af68  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+184) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #04 pc 00000000004757e4  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FatalError(_JNIEnv*, char const*)+196) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : backtrace:
+DEBUG   :       #10 pc 0000000000624aec  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+460) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :     x12 0000000000fedf58  x13 00000082bc8549fc  x14 0019bf896e3ce200  x15 0000000000000000
+Exception Gedi: 11 00009 a função GEDI_SMART_Status retornou GEDI_RET_OUT_OF_BOUNDS
+DEBUG   :     x24 0000007cb1c1f010  x25 0000000000015f90  x26 0000000000000000  x27 0000007ccf616000
+DEBUG   : pid: 16730, tid: 16747, name: enableInternal  >>> com.android.nfc <<<
+DEBUG   : Timestamp: 2023-12-09 07:57:49.469211404-0300
+DEBUG   :     x12 0000000001078228  x13 0000008727dc0a6b  x14 001d1607c54391c0  x15 0000000000000000
+libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 16605 (enableInternal), pid 16588 (com.android.nfc)
+Exception Gedi: 29 10001 a função GEDI_RS232_DataReceive retornou GEDI_RET_MODULE_NOT_FOUND
+DEBUG   :     x20 00000000000000b2  x21 0000000000003fca  x22 0000000000003fdb  x23 00000000ffffffff
+DEBUG   : backtrace:
+Exception Gedi: 05 10001 a função GEDI_KMS_DUKPTKSNGet retornou GEDI_RET_MODULE_NOT_FOUND
+DEBUG   :     x0  0000000000000000  x1  0000000000003f85  x2  0000000000000006  x3  0000007c4f6fc670
+DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+at android.os.HandlerThread.run(HandlerThread.java:67)
+DEBUG   :       #12 pc 00000000000c1e50  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+208) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :       #13 pc 0000000000054b50  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   : backtrace:
+DEBUG   :       #01 pc 000000000062bbbc  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1372) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #02 pc 0000000000017560  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+80) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 16347 (enableInternal), pid 16330 (com.android.nfc)
+DEBUG   :       #13 pc 0000000000054b50  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+Exception Gedi: 14 00005 a função GEDI_SMART_ResetISO retornou GEDI_RET_TIMEOUT
+DEBUG   :     x24 0000007cb1c1f010  x25 0000000000015f90  x26 0000000000000000  x27 0000007ccf616000
+DEBUG   :       #12 pc 00000000000c1e50  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+208) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :       #00 pc 0000000000053324  /apex/com.android.runtime/lib64/bionic/libc.so (abort+180) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :       #08 pc 000000000021096c  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+556) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :     x20 00000000000000b2  x21 0000000000003fae  x22 0000000000003fbf  x23 00000000ffffffff
+DEBUG   :       #07 pc 00000000006d3dd4  /system/app/NfcNci/oat/arm64/NfcNci.odex (com.android.nfc.NfcService$WatchDogThread.run+836) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   : Revision: '0'
+DEBUG   : backtrace:
+DEBUG   : Cmdline: com.android.nfc
+DEBUG   :       #10 pc 0000000000624aec  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue 
+DEBUG   :     x4  0000000000003003  x5  0000000000003003  x6  0000000000003003  x7  0000000000003003
+DEBUG   :       #03 pc 0000000000016a84  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+356) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+Exception Gedi: 39 10001 a função GEDI_BT_DataReceive retornou GEDI_RET_MODULE_NOT_FOUND 
+at android.media.MediaPlayer.setDataSource(MediaPlayer.java:1190)
+DEBUG   :       #09 pc 000000000027af68  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+184) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #08 pc 000000000021096c  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+556) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #05 pc 000000000003484c  /system/lib64/libnfc_nci_jni.so (android::nfcManager_doAbort(_JNIEnv*, _jobject*, _jstring*)+60) (BuildId: bcd5c29118ceec7089f2398532c4f353)
+DEBUG   : pid: 16446, tid: 16463, name: enableInternal  >>> com.android.nfc <<<
+Exception Gedi: 44 00002 a função GEDI_BT_PairedListGet retornou GEDI_RET_TEST_FAIL
+DEBUG   :       #01 pc 000000000062bbbc  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1372) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+Exception Gedi: 26 00009 a função GEDI_USB_StatusGet retornou GEDI_RET_OUT_OF_BOUNDS
+Exception Gedi: 01 00010 a função GEDI_FIRMWARE_VersionGet retornou GEDI_RET_END_OF_LIST
+libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 16204 (enableInternal), pid 16187 (com.android.nfc)
+Exception Gedi: 33 00004 a função GEDI_RS232_Close retornou GEDI_RET_INVALID_PARAMETER
+DEBUG   :       #13 pc 0000000000054b50  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   : Process uptime: 92s
+DEBUG   :     lr  0000007f7a8622f4  sp  0000007c4cffd650  pc  0000007f7a862324  pst 0000000000000000
+DEBUG   : Abort message: 'JNI FatalError called: enableInternal'
+DEBUG   : Build fingerprint: 'Gertec/SK-210/SK-210:13/TP1A.220624.014/616:user/dev-keys'
+DEBUG   :     x24 0000007cb1c1f010  x25 0000000000015f90  x26 0000000000000000  x27 0000007ccf616000
+Exception Gedi: 11 00001 a função GEDI_SMART_Status retornou GEDI_RET_FUNCTION_NOT_FOUND
+DEBUG   : Revision: '0'
+DEBUG   : Build fingerprint: 'Gertec/SK-210/SK-210:13/TP1A.220624.014/616:user/dev-keys'
+DEBUG   :     x16 0000007f7a8dfd60  x17 0000007f7a8baa20  x18 0000007c4e550008  x19 00000000000000ac
+DEBUG   :       #13 pc 0000000000054b50  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :     x0  0000000000000000  x1  0000000000003f12  x2  0000000000000006  x3  0000007c4eb75670
+Exception Gedi: 08 10000 a função GEDI_KMS_EncryptData retornou GEDI_RET_PLATFORM_ERROR
+DEBUG   :       #03 pc 0000000000016a84  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+356) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   :       #11 pc 000000000066dca0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1296) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+Exception Gedi: 13 00008 a função GEDI_SMART_ResetEMV retornou GEDI_RET_BUFFER_NOT_ENOUGH
+Exception Gedi: 06 00010 a função GEDI_KMS_DeleteKey retornou GEDI_RET_END_OF_LIST
+DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+DEBUG   :     x4  0000000000003003  x5  0000000000003003  x6  0000000000003003  x7  0000000000003003
+DEBUG   :       #01 pc 000000000062bbbc  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1372) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 16290 (enableInternal), pid 16273 (com.android.nfc)
+DEBUG   :       #13 pc 0000000000054b50  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :       #05 pc 000000000003484c  /system/lib64/libnfc_nci_jni.so (android::nfcManager_doAbort(_JNIEnv*, _jobject*, _jstring*)+60) (BuildId: bcd5c29118ceec7089f2398532c4f353)
+DEBUG   :       #02 pc 0000000000017560  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+80) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   :     x28 0000007ccec988a6  x29 0000007c4eccb6f0
+DEBUG   :     x28 0000007ccec988a6  x29 0000007c4d0366f0
+DEBUG   : Process uptime: 91s
+DEBUG   :     x0  0000000000000000  x1  0000000000003fbf  x2  0000000000000006  x3  0000007c4ff40670
+libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 16790 (enableInternal), pid 16767 (com.android.nfc)
+Exception Gedi: 08 00000 a função GEDI_KMS_EncryptData retornou GEDI_RET_OK
+DEBUG   : ABI: 'arm64'
+DEBUG   :       #12 pc 00000000000c1e50  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+208) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   : pid: 16273, tid: 16290, name: enableInternal  >>> com.android.nfc <<<
+DEBUG   :       #06 pc 00000000008b9f60  /system/app/NfcNci/oat/arm64/NfcNci.odex (art_jni_trampoline+128) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   : Timestamp: 2023-12-09 08:25:11.984368809-0300
+DEBUG   :       #11 pc 000000000066dca0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1296) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : Build fingerprint: 'Gertec/SK-210/SK-210:13/TP1A.220624.014/616:user/dev-keys'
+Exception Gedi: 13 00008 a função GEDI_SMART_ResetEMV retornou GEDI_RET_BUFFER_NOT_ENOUGH
+DEBUG   :     x24 0000007cb1c3f010  x25 0000000000015f90  x26 0000000000000000  x27 0000007ccf616000
+DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+DEBUG   : ABI: 'arm64'
+DEBUG   :       #12 pc 00000000000c1e50  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+208) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :       #11 pc 000000000066dca0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1296) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :     x12 0000000000fdce62  x13 000000822f1eec20  x14 00388112635c65e0  x15 0000000000000000
+DEBUG   : Timestamp: 2023-12-09 08:22:09.479024491-0300
+DEBUG   :       #10 pc 0000000000624aec  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue 
+DEBUG   :       #06 pc 00000000008b9f60  /system/app/NfcNci/oat/arm64/NfcNci.odex (art_jni_trampoline+128) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :     x12 000000000102a364  x13 00000084ab75e01f  x14 000aba52944f6760  x15 0000000000000000
+DEBUG   :       #00 pc 0000000000053324  /apex/com.android.runtime/lib64/bionic/libc.so (abort+180) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   : Cmdline: com.android.nfc
+DEBUG   :     x16 0000007f7a8dfd60  x17 0000007f7a8baa20  x18 0000007c51270008  x19 00000000000000ac
+DEBUG   :     x20 00000000000000b2  x21 00000000000041da  x22 00000000000041eb  x23 00000000ffffffff
+DEBUG   :     x8  00000000000000f0  x9  0000007f7a830a00  x10 0000000000000001  x11 0000007f7a871950
+DEBUG   :       #04 pc 00000000004757e4  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FatalError(_JNIEnv*, char const*)+196) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+Exception Gedi: 00 00007 a função GEDI_MainMenu retornou GEDI_RET_COULD_NOT_ALLOCATE_MEMORY
+DEBUG   :       #00 pc 0000000000053324  /apex/com.android.runtime/lib64/bionic/libc.so (abort+180) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :     x0  0000000000000000  x1  0000000000004132  x2  0000000000000006  x3  0000007c4abd8670
+Exception Gedi: 28 00006 a função GEDI_RS232_DataSend retornou GEDI_RET_CANCELLED
+DEBUG   :       #05 pc 000000000003484c  /system/lib64/libnfc_nci_jni.so (android::nfcManager_doAbort(_JNIEnv*, _jobject*, _jstring*)+60) (BuildId: bcd5c29118ceec7089f2398532c4f353)
+DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+DEBUG   :       #12 pc 00000000000c1e50  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+208) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+Exception Gedi: 07 00006 a função GEDI_CRYPT_SecureZeroMemory retornou GEDI_RET_CANCELLED
+DEBUG   :     x0  0000000000000000  x1  0000000000003fdb  x2  0000000000000006  x3  0000007c4c8f8670
+DEBUG   :     x16 0000007f7a8dfd60  x17 0000007f7a8baa20  x18 0000007c4fd96008  x19 00000000000000ac
+DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+DEBUG   :       #05 pc 000000000003484c  /system/lib64/libnfc_nci_jni.so (android::nfcManager_doAbort(_JNIEnv*, _jobject*, _jstring*)+60) (BuildId: bcd5c29118ceec7089f2398532c4f353)
+DEBUG   :       #09 pc 000000000027af68  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+184) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :     x4  0000000000003003  x5  0000000000003003  x6  0000000000003003  x7  0000000000003003
+DEBUG   :     x4  0000000000003003  x5  0000000000003003  x6  0000000000003003  x7  0000000000003003
+DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+DEBUG   :     lr  0000007f7a8622f4  sp  0000007c4eccb650  pc  0000007f7a862324  pst 0000000000000000
+libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 16232 (enableInternal), pid 16215 (com.android.nfc)
+DEBUG   :     x8  00000000000000f0  x9  0000007f7a830a00  x10 0000000000000001  x11 0000007f7a871950
+Exception Gedi: 06 00010 a função GEDI_KMS_DeleteKey retornou GEDI_RET_END_OF_LIST
+DEBUG   : Process uptime: 92s
+DEBUG   : Abort message: 'JNI FatalError called: enableInternal'
+DEBUG   :       #12 pc 00000000000c1e50  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+208) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :       #04 pc 00000000004757e4  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FatalError(_JNIEnv*, char const*)+196) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : ABI: 'arm64'
+DEBUG   : Build fingerprint: 'Gertec/SK-210/SK-210:13/TP1A.220624.014/616:user/dev-keys'
+DEBUG   : Cmdline: com.android.nfc
+DEBUG   :       #07 pc 00000000006d3dd4  /system/app/NfcNci/oat/arm64/NfcNci.odex (com.android.nfc.NfcService$WatchDogThread.run+836) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :       #05 pc 000000000003484c  /system/lib64/libnfc_nci_jni.so (android::nfcManager_doAbort(_JNIEnv*, _jobject*, _jstring*)+60) (BuildId: bcd5c29118ceec7089f2398532c4f353)
+DEBUG   : Build fingerprint: 'Gertec/SK-210/SK-210:13/TP1A.220624.014/616:user/dev-keys'
+DEBUG   :     x12 0000000000fe5710  x13 0000008275d0e180  x14 000af75b68cc8c80  x15 0000000000000000
+DEBUG   : Revision: '0'
+DEBUG   :       #03 pc 0000000000016a84  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+356) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   : Process uptime: 92s
+DEBUG   : pid: 16302, tid: 16319, name: enableInternal  >>> com.android.nfc <<<
+DEBUG   :       #07 pc 00000000006d3dd4  /system/app/NfcNci/oat/arm64/NfcNci.odex (com.android.nfc.NfcService$WatchDogThread.run+836) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :     x28 0000007ccec988a6  x29 0000007c500a86f0
+DEBUG   :     lr  0000007f7a8622f4  sp  0000007c4ce0a650  pc  0000007f7a862324  pst 0000000000000000
+DEBUG   :       #09 pc 000000000027af68  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+184) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #07 pc 00000000006d3dd4  /system/app/NfcNci/oat/arm64/NfcNci.odex (com.android.nfc.NfcService$WatchDogThread.run+836) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :       #12 pc 00000000000c1e50  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+208) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :     x28 0000007ccec988a6  x29 0000007c521456f0
+Exception Gedi: 17 00000 a função GEDI_SMART_CommonReset retornou GEDI_RET_OK
+Exception Gedi: 16 10001 a função GEDI_SMART_WarmResetISO retornou GEDI_RET_MODULE_NOT_FOUND
+DEBUG   :       #10 pc 0000000000624aec  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue 
+DEBUG   :     x0  0000000000000000  x1  0000000000004087  x2  0000000000000006  x3  0000007c4cbac670
+DEBUG   :       #11 pc 000000000066dca0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1296) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : Revision: '0'
+libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 16176 (enableInternal), pid 16159 (com.android.nfc)
+DEBUG   :     x28 0000007ccec988a6  x29 0000007c504936f0
+Exception Gedi: 16 10001 a função GEDI_SMART_WarmResetISO retornou GEDI_RET_MODULE_NOT_FOUND
+DEBUG   :     lr  0000007f7a8622f4  sp  0000007c4ff40650  pc  0000007f7a862324  pst 0000000000000000
+DEBUG   :       #09 pc 000000000027af68  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+184) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : Revision: '0'
+DEBUG   : Revision: '0'
+DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+Exception Gedi: 46 00002 a função GEDI_BT_Connect retornou GEDI_RET_TEST_FAIL
+libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 16818 (enableInternal), pid 16801 (com.android.nfc)
+DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+DEBUG   : ABI: 'arm64'
+Exception Gedi: 34 00009 a função GEDI_BT_Enable retornou GEDI_RET_OUT_OF_BOUNDS
+DEBUG   :       #07 pc 00000000006d3dd4  /system/app/NfcNci/oat/arm64/NfcNci.odex (com.android.nfc.NfcService$WatchDogThread.run+836) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :       #09 pc 000000000027af68  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+184) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+Exception Gedi: 09 00002 a função GEDI_KMS_CapturePIN retornou GEDI_RET_TEST_FAIL
+DEBUG   : backtrace:
+DEBUG   :       #10 pc 0000000000624aec  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue 
+DEBUG   :       #03 pc 0000000000016a84  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+356) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   :       #08 pc 000000000021096c  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+556) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #11 pc 000000000066dca0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1296) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+Exception Gedi: 36 00005 a função GEDI_BT_ListenStart retornou GEDI_RET_TIMEOUT
+DEBUG   :       #13 pc 0000000000054b50  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :       #09 pc 000000000027af68  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+184) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #08 pc 000000000021096c  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+556) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #01 pc 000000000062bbbc  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1372) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+Exception Gedi: 33 00006 a função GEDI_RS232_Close retornou GEDI_RET_CANCELLED
+DEBUG   :       #09 pc 000000000027af68  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+184) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : uid: 1027
+Exception Gedi: 06 10001 a função GEDI_KMS_DeleteKey retornou GEDI_RET_MODULE_NOT_FOUND
+DEBUG   :       #01 pc 000000000062bbbc  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1372) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :     x24 0000007cb1c1f010  x25 0000000000015f90  x26 0000000000000000  x27 0000007ccf616000
+Exception Gedi: 28 00009 a função GEDI_RS232_DataSend retornou GEDI_RET_OUT_OF_BOUNDS
+DEBUG   :       #09 pc 000000000027af68  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+184) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : Cmdline: com.android.nfc
+DEBUG   :     lr  0000007f7a8622f4  sp  0000007c49e1b650  pc  0000007f7a862324  pst 0000000000000000
+Exception Gedi: 26 00007 a função GEDI_USB_StatusGet retornou GEDI_RET_COULD_NOT_ALLOCATE_MEMORY
+DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+DEBUG   : Process uptime: 91s
+DEBUG   : ABI: 'arm64'
+DEBUG   :       #04 pc 00000000004757e4  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FatalError(_JNIEnv*, char const*)+196) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #12 pc 00000000000c1e50  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+208) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :       #04 pc 00000000004757e4  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FatalError(_JNIEnv*, char const*)+196) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #06 pc 00000000008b9f60  /system/app/NfcNci/oat/arm64/NfcNci.odex (art_jni_trampoline+128) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :       #09 pc 000000000027af68  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+184) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :     x20 00000000000000b2  x21 000000000000403e  x22 000000000000404f  x23 00000000ffffffff
+DEBUG   :       #12 pc 00000000000c1e50  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+208) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+at com.android.systemui.media.NotificationPlayer$CreationAndCompletionThread.run(NotificationPlayer.java:102)
+DEBUG   : Process uptime: 92s
+DEBUG   : ABI: 'arm64'
+DEBUG   :     x28 0000007ccec988a6  x29 0000007c4b8436f0
+DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+DEBUG   :       #12 pc 00000000000c1e50  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+208) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+Exception Gedi: 33 00009 a função GEDI_RS232_Close retornou GEDI_RET_OUT_OF_BOUNDS
+DEBUG   :       #08 pc 000000000021096c  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+556) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :     x28 0000007ccec988a6  x29 0000007c4b4786f0
+DEBUG   :       #05 pc 000000000003484c  /system/lib64/libnfc_nci_jni.so (android::nfcManager_doAbort(_JNIEnv*, _jobject*, _jstring*)+60) (BuildId: bcd5c29118ceec7089f2398532c4f353)
+DEBUG   :       #11 pc 000000000066dca0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1296) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+DEBUG   :     lr  0000007f7a8622f4  sp  0000007c50493650  pc  0000007f7a862324  pst 0000000000000000
+DEBUG   :       #07 pc 00000000006d3dd4  /system/app/NfcNci/oat/arm64/NfcNci.odex (com.android.nfc.NfcService$WatchDogThread.run+836) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :       #13 pc 0000000000054b50  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   : ABI: 'arm64'
+DEBUG   :       #13 pc 0000000000054b50  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   : Build fingerprint: 'Gertec/SK-210/SK-210:13/TP1A.220624.014/616:user/dev-keys'
+Exception Gedi: 36 00003 a função GEDI_BT_ListenStart retornou GEDI_RET_NULL_PARAMETER
+DEBUG   : uid: 1027
+DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+DEBUG   :     x4  0000000000003003  x5  0000000000003003  x6  0000000000003003  x7  0000000000003003
+DEBUG   :       #01 pc 000000000062bbbc  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1372) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : pid: 16767, tid: 16790, name: enableInternal  >>> com.android.nfc <<<
+Exception Gedi: 15 00001 a função GEDI_SMART_WarmResetEMV retornou GEDI_RET_FUNCTION_NOT_FOUND
+DEBUG   :       #01 pc 000000000062bbbc  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1372) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :     x20 00000000000000b2  x21 000000000000413d  x22 000000000000414e  x23 00000000ffffffff
+DEBUG   :     x0  0000000000000000  x1  0000000000004014  x2  0000000000000006  x3  0000007c4d036670
+DEBUG   :       #08 pc 000000000021096c  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+556) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+Exception Gedi: 11 00001 a função GEDI_SMART_Status retornou GEDI_RET_FUNCTION_NOT_FOUND
+Exception Gedi: 25 10000 a função GEDI_USB_OperationModeSet retornou GEDI_RET_PLATFORM_ERROR
+DEBUG   : pid: 16187, tid: 16204, name: enableInternal  >>> com.android.nfc <<<
+DEBUG   :       #04 pc 00000000004757e4  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FatalError(_JNIEnv*, char const*)+196) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+Exception Gedi: 25 00003 a função GEDI_USB_OperationModeSet retornou GEDI_RET_NULL_PARAMETER
+DEBUG   : Timestamp: 2023-12-09 08:13:01.931670920-0300
+Exception Gedi: 04 00008 a função GEDI_KMS_KCVGet retornou GEDI_RET_BUFFER_NOT_ENOUGH
+DEBUG   :     x8  00000000000000f0  x9  0000007f7a830a00  x10 0000000000000001  x11 0000007f7a871950
+DEBUG   :       #10 pc 0000000000624aec  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+460) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :     x16 0000007f7a8dfd60  x17 0000007f7a8baa20  x18 0000007c4c1d4008  x19 00000000000000ac
+Exception Gedi: 13 00010 a função GEDI_SMART_ResetEMV retornou GEDI_RET_END_OF_LIST
+DEBUG   :       #02 pc 0000000000017560  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+80) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   :       #02 pc 0000000000017560  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+80) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   :     lr  0000007f7a8622f4  sp  0000007c4b843650  pc  0000007f7a862324  pst 0000000000000000
+DEBUG   : Revision: '0'
+DEBUG   : pid: 16801, tid: 16818, name: enableInternal  >>> com.android.nfc <<<
+DEBUG   :     lr  0000007f7a8622f4  sp  0000007c4cde7650  pc  0000007f7a862324  pst 0000000000000000
+DEBUG   :       #13 pc 0000000000054b50  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :       #01 pc 000000000062bbbc  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1372) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #05 pc 000000000003484c  /system/lib64/libnfc_nci_jni.so (android::nfcManager_doAbort(_JNIEnv*, _jobject*, _jstring*)+60) (BuildId: bcd5c29118ceec7089f2398532c4f353)
+DEBUG   : Process uptime: 92s
+DEBUG   :       #05 pc 000000000003484c  /system/lib64/libnfc_nci_jni.so (android::nfcManager_doAbort(_JNIEnv*, _jobject*, _jstring*)+60) (BuildId: bcd5c29118ceec7089f2398532c4f353)
+DEBUG   : Process uptime: 92s
+DEBUG   :       #01 pc 000000000062bbbc  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1372) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #03 pc 0000000000016a84  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+356) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   :       #00 pc 0000000000053324  /apex/com.android.runtime/lib64/bionic/libc.so (abort+180) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :       #08 pc 000000000021096c  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+556) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :     x20 00000000000000b2  x21 0000000000004093  x22 00000000000040a4  x23 00000000ffffffff
+DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+DEBUG   : ABI: 'arm64'
+DEBUG   :     lr  0000007f7a8622f4  sp  0000007c51cbd650  pc  0000007f7a862324  pst 0000000000000000
+Exception Gedi: 23 00007 a função GEDI_USB_DataReceive retornou GEDI_RET_COULD_NOT_ALLOCATE_MEMORY
+DEBUG   :       #08 pc 000000000021096c  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+556) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : ABI: 'arm64'
+DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 16663 (enableInternal), pid 16646 (com.android.nfc)
+DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+Exception Gedi: 04 00003 a função GEDI_KMS_KCVGet retornou GEDI_RET_NULL_PARAMETER
+DEBUG   :     x0  0000000000000000  x1  0000000000003f4c  x2  0000000000000006  x3  0000007c48c88670
+Exception Gedi: 01 00011 a função GEDI_FIRMWARE_VersionGet retornou GEDI_RET_NOT_SUPPORTED
+Exception Gedi: 01 00011 a função GEDI_FIRMWARE_VersionGet retornou GEDI_RET_NOT_SUPPORTED
+DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+DEBUG   : Cmdline: com.android.nfc
+DEBUG   : ABI: 'arm64'
+Exception Gedi: 18 00004 a função GEDI_SMART_SendAPDU retornou GEDI_RET_INVALID_PARAMETER
+DEBUG   :       #04 pc 00000000004757e4  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FatalError(_JNIEnv*, char const*)+196) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #00 pc 0000000000053324  /apex/com.android.runtime/lib64/bionic/libc.so (abort+180) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :       #06 pc 00000000008b9f60  /system/app/NfcNci/oat/arm64/NfcNci.odex (art_jni_trampoline+128) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :       #11 pc 000000000066dca0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1296) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : Cmdline: com.android.nfc
+Exception Gedi: 46 00004 a função GEDI_BT_Connect retornou GEDI_RET_INVALID_PARAMETER
+Exception Gedi: 42 00010 a função GEDI_BT_ConfigSet retornou GEDI_RET_END_OF_LIST
+DEBUG   :       #04 pc 00000000004757e4  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FatalError(_JNIEnv*, char const*)+196) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+Exception Gedi: 32 00009 a função GEDI_RS232_Flush retornou GEDI_RET_OUT_OF_BOUNDS
+DEBUG   : backtrace:
+DEBUG   :     x16 0000007f7a8dfd60  x17 0000007f7a8baa20  x18 0000007c47c72008  x19 00000000000000ac
+DEBUG   :       #00 pc 0000000000053324  /apex/com.android.runtime/lib64/bionic/libc.so (abort+180) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+Exception Gedi: 25 00010 a função GEDI_USB_OperationModeSet retornou GEDI_RET_END_OF_LIST
+Exception Gedi: 29 00010 a função GEDI_RS232_DataReceive retornou GEDI_RET_END_OF_LIST
+DEBUG   :       #07 pc 00000000006d3dd4  /system/app/NfcNci/oat/arm64/NfcNci.odex (com.android.nfc.NfcService$WatchDogThread.run+836) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :     x12 00000000010219dc  x13 0000008464c1264b  x14 00374fe58edf0240  x15 0000000000000000
+DEBUG   :       #09 pc 000000000027af68  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+184) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : Process uptime: 91s
+libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 16576 (enableInternal), pid 16559 (com.android.nfc)
+Exception Gedi: 09 00009 a função GEDI_KMS_CapturePIN retornou GEDI_RET_OUT_OF_BOUNDS
+DEBUG   :     x8  00000000000000f0  x9  0000007f7a830a00  x10 0000000000000001  x11 0000007f7a871950
+DEBUG   :       #07 pc 00000000006d3dd4  /system/app/NfcNci/oat/arm64/NfcNci.odex (com.android.nfc.NfcService$WatchDogThread.run+836) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   : Revision: '0'
+DEBUG   : pid: 16159, tid: 16176, name: enableInternal  >>> com.android.nfc <<<
+DEBUG   :       #11 pc 000000000066dca0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1296) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+Exception Gedi: 28 00011 a função GEDI_RS232_DataSend retornou GEDI_RET_NOT_SUPPORTED
+DEBUG   :     x28 0000007ccec988a6  x29 0000007c4bbcf6f0
+DEBUG   :       #00 pc 0000000000053324  /apex/com.android.runtime/lib64/bionic/libc.so (abort+180) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :       #00 pc 0000000000053324  /apex/com.android.runtime/lib64/bionic/libc.so (abort+180) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   : backtrace:
+DEBUG   :       #01 pc 000000000062bbbc  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1372) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :     x24 0000007cb1c1f010  x25 0000000000015f90  x26 0000000000000000  x27 0000007ccf616000
+DEBUG   :     x4  0000000000003003  x5  0000000000003003  x6  0000000000003003  x7  0000000000003003
+at android.media.MediaPlayer.setDataSource(MediaPlayer.java:1203)
+Exception Gedi: 38 00002 a função GEDI_BT_DataSend retornou GEDI_RET_TEST_FAIL
+Exception Gedi: 18 00010 a função GEDI_SMART_SendAPDU retornou GEDI_RET_END_OF_LIST
+Exception Gedi: 01 00007 a função GEDI_FIRMWARE_VersionGet retornou GEDI_RET_COULD_NOT_ALLOCATE_MEMORY
+DEBUG   : uid: 1027
+Exception Gedi: 09 00004 a função GEDI_KMS_CapturePIN retornou GEDI_RET_INVALID_PARAMETER
+DEBUG   :       #05 pc 000000000003484c  /system/lib64/libnfc_nci_jni.so (android::nfcManager_doAbort(_JNIEnv*, _jobject*, _jstring*)+60) (BuildId: bcd5c29118ceec7089f2398532c4f353)
+Exception Gedi: 09 00002 a função GEDI_KMS_CapturePIN retornou GEDI_RET_TEST_FAIL
+DEBUG   : uid: 1027
+DEBUG   : ABI: 'arm64'
+DEBUG   :       #01 pc 000000000062bbbc  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1372) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : pid: 16829, tid: 16846, name: enableInternal  >>> com.android.nfc <<<
+DEBUG   : Process uptime: 91s
+DEBUG   :       #05 pc 000000000003484c  /system/lib64/libnfc_nci_jni.so (android::nfcManager_doAbort(_JNIEnv*, _jobject*, _jstring*)+60) (BuildId: bcd5c29118ceec7089f2398532c4f353)
+DEBUG   :     x0  0000000000000000  x1  0000000000004196  x2  0000000000000006  x3  0000007c52359670
+DEBUG   : Abort message: 'JNI FatalError called: enableInternal'
+DEBUG   :       #12 pc 00000000000c1e50  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+208) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :     x8  00000000000000f0  x9  0000007f7a830a00  x10 0000000000000001  x11 0000007f7a871950
+Exception Gedi: 01 00007 a função GEDI_FIRMWARE_VersionGet retornou GEDI_RET_COULD_NOT_ALLOCATE_MEMORY
+DEBUG   :       #05 pc 000000000003484c  /system/lib64/libnfc_nci_jni.so (android::nfcManager_doAbort(_JNIEnv*, _jobject*, _jstring*)+60) (BuildId: bcd5c29118ceec7089f2398532c4f353)
+DEBUG   :       #04 pc 00000000004757e4  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FatalError(_JNIEnv*, char const*)+196) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #08 pc 000000000021096c  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+556) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : Abort message: 'JNI FatalError called: enableInternal'
+DEBUG   :       #05 pc 000000000003484c  /system/lib64/libnfc_nci_jni.so (android::nfcManager_doAbort(_JNIEnv*, _jobject*, _jstring*)+60) (BuildId: bcd5c29118ceec7089f2398532c4f353)
+DEBUG   :     x20 00000000000000b2  x21 0000000000004121  x22 0000000000004132  x23 00000000ffffffff
+DEBUG   :     x0  0000000000000000  x1  0000000000003fa2  x2  0000000000000006  x3  0000007c4ce0a670
+DEBUG   :     x4  0000000000003003  x5  0000000000003003  x6  0000000000003003  x7  0000000000003003
+DEBUG   : Abort message: 'JNI FatalError called: enableInternal'
+DEBUG   :       #03 pc 0000000000016a84  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+356) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   :     x0  0000000000000000  x1  00000000000040dd  x2  0000000000000006  x3  0000007c4f179670
+DEBUG   :     x16 0000007f7a8dfd60  x17 0000007f7a8baa20  x18 0000007c51ac6008  x19 00000000000000ac
+DEBUG   :     x0  0000000000000000  x1  000000000000416b  x2  0000000000000006  x3  0000007c4b478670
+DEBUG   :       #00 pc 0000000000053324  /apex/com.android.runtime/lib64/bionic/libc.so (abort+180) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :     x8  00000000000000f0  x9  0000007f7a830a00  x10 0000000000000001  x11 0000007f7a871950
+Exception Gedi: 23 00008 a função GEDI_USB_DataReceive retornou GEDI_RET_BUFFER_NOT_ENOUGH
+DEBUG   : backtrace:
+DEBUG   :     x8  00000000000000f0  x9  0000007f7a830a00  x10 0000000000000001  x11 0000007f7a871950
+DEBUG   : backtrace:
+DEBUG   : Abort message: 'JNI FatalError called: enableInternal'
+DEBUG   :       #02 pc 0000000000017560  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+80) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   :       #07 pc 00000000006d3dd4  /system/app/NfcNci/oat/arm64/NfcNci.odex (com.android.nfc.NfcService$WatchDogThread.run+836) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :     x8  00000000000000f0  x9  0000007f7a830a00  x10 0000000000000001  x11 0000007f7a871950
+DEBUG   : uid: 1027
+libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 16548 (enableInternal), pid 16531 (com.android.nfc)
+DEBUG   :     x28 0000007ccec988a6  x29 0000007c4f1796f0
+DEBUG   : Timestamp: 2023-12-09 08:28:14.587148512-0300
+DEBUG   :       #11 pc 000000000066dca0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1296) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #02 pc 0000000000017560  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+80) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+Exception Gedi: 27 00003 a função GEDI_RS232_Open retornou GEDI_RET_NULL_PARAMETER
+DEBUG   :       #02 pc 0000000000017560  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+80) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   :       #08 pc 000000000021096c  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+556) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #10 pc 0000000000624aec  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+460) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :     x0  0000000000000000  x1  000000000000404f  x2  0000000000000006  x3  0000007c4b843670
+DEBUG   :       #07 pc 00000000006d3dd4  /system/app/NfcNci/oat/arm64/NfcNci.odex (com.android.nfc.NfcService$WatchDogThread.run+836) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :       #02 pc 0000000000017560  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+80) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   : Timestamp: 2023-12-09 08:11:30.686457299-0300
+DEBUG   :       #13 pc 0000000000054b50  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :       #04 pc 00000000004757e4  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FatalError(_JNIEnv*, char const*)+196) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : Timestamp: 2023-12-09 08:03:54.453615810-0300
+DEBUG   :     x28 0000007ccec988a6  x29 0000007c4ce0a6f0
+Exception Gedi: 38 00002 a função GEDI_BT_DataSend retornou GEDI_RET_TEST_FAIL
+DEBUG   : pid: 16588, tid: 16605, name: enableInternal  >>> com.android.nfc <<<
+DEBUG   :     x12 0000000000fd4668  x13 00000081e86d3aa4  x14 002a6fff5dec3f40  x15 0000000000000000
+DEBUG   : backtrace:
+DEBUG   :       #12 pc 00000000000c1e50  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+208) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   : Abort message: 'JNI FatalError called: enableInternal'
+DEBUG   : Revision: '0'
+DEBUG   : pid: 16415, tid: 16432, name: enableInternal  >>> com.android.nfc <<<
+DEBUG   : Cmdline: com.android.nfc
+DEBUG   :       #01 pc 000000000062bbbc  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1372) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :     x28 0000007ccec988a6  x29 0000007c49e1b6f0
+DEBUG   :       #06 pc 00000000008b9f60  /system/app/NfcNci/oat/arm64/NfcNci.odex (art_jni_trampoline+128) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   : Build fingerprint: 'Gertec/SK-210/SK-210:13/TP1A.220624.014/616:user/dev-keys'
+Exception Gedi: 16 10001 a função GEDI_SMART_WarmResetISO retornou GEDI_RET_MODULE_NOT_FOUND
+Exception Gedi: 15 00001 a função GEDI_SMART_WarmResetEMV retornou GEDI_RET_FUNCTION_NOT_FOUND
+DEBUG   : backtrace:
+DEBUG   :       #02 pc 0000000000017560  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+80) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   : Build fingerprint: 'Gertec/SK-210/SK-210:13/TP1A.220624.014/616:user/dev-keys'
+Exception Gedi: 41 00000 a função GEDI_BT_ConnectionInfoGet retornou GEDI_RET_OK
+DEBUG   :       #10 pc 0000000000624aec  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+460) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :     x4  0000000000003003  x5  0000000000003003  x6  0000000000003003  x7  0000000000003003
+DEBUG   :     x24 0000007cb1c3f010  x25 0000000000015f90  x26 0000000000000000  x27 0000007ccf616000
+DEBUG   :     x16 0000007f7a8dfd60  x17 0000007f7a8baa20  x18 0000007c4bff4008  x19 00000000000000ac
+DEBUG   :       #11 pc 000000000066dca0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1296) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :     x24 0000007cb1c1f010  x25 0000000000015f90  x26 0000000000000000  x27 0000007ccf616000
+Exception Gedi: 47 00003 a função GEDI_BT_Disconnect retornou GEDI_RET_NULL_PARAMETER
+Exception Gedi: 25 00010 a função GEDI_USB_OperationModeSet retornou GEDI_RET_END_OF_LIST
+DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+DEBUG   : Timestamp: 2023-12-09 08:08:28.225951826-0300
+DEBUG   :     x16 0000007f7a8dfd60  x17 0000007f7a8baa20  x18 0000007c4c50c008  x19 00000000000000ac
+DEBUG   :     x8  00000000000000f0  x9  0000007f7a830a00  x10 0000000000000001  x11 0000007f7a871950
+DEBUG   : Revision: '0'
+DEBUG   :     x12 ffffffffc4653600  x13 000000857fa1b44b  x14 003b9a87a4a190c0  x15 0000000000000000
+at android.os.Handler.dispatchMessage(Handler.java:106)
+Exception Gedi: 42 00004 a função GEDI_BT_ConfigSet retornou GEDI_RET_INVALID_PARAMETER
+DEBUG   :     x12 000000000104cc7e  x13 00000085c65670a3  x14 000ec7ebaa11e640  x15 0000000000000000
+Exception Gedi: 03 00008 a função GEDI_KMS_KeyPresenceTest retornou GEDI_RET_BUFFER_NOT_ENOUGH
+DEBUG   :     x24 0000007cb1c1f010  x25 0000000000015f90  x26 0000000000000000  x27 0000007ccf616000
+DEBUG   : Revision: '0'
+Exception Gedi: 17 00008 a função GEDI_SMART_CommonReset retornou GEDI_RET_BUFFER_NOT_ENOUGH
+Exception Gedi: 21 10001 a função GEDI_USB_Close retornou GEDI_RET_MODULE_NOT_FOUND
+DEBUG   :       #10 pc 0000000000624aec  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue const*)+460) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :     x16 0000007f7a8dfd60  x17 0000007f7a8baa20  x18 0000007c4a8d0008  x19 00000000000000ac
+DEBUG   :       #11 pc 000000000066dca0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1296) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : uid: 1027
+DEBUG   : Revision: '0'
+Exception Gedi: 23 00010 a função GEDI_USB_DataReceive retornou GEDI_RET_END_OF_LIST
+DEBUG   :       #01 pc 000000000062bbbc  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1372) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   : Revision: '0'
+DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+at android.os.Looper.loop(Looper.java:288)
+DEBUG   : Revision: '0'
+DEBUG   :       #09 pc 000000000027af68  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+184) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :       #03 pc 0000000000016a84  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+356) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   :       #03 pc 0000000000016a84  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+356) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+Exception Gedi: 29 00005 a função GEDI_RS232_DataReceive retornou GEDI_RET_TIMEOUT
+DEBUG   : backtrace:
+DEBUG   :     x28 0000007ccec988a6  x29 0000007c4eb756f0
+DEBUG   :       #12 pc 00000000000c1e50  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+208) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   :       #07 pc 00000000006d3dd4  /system/app/NfcNci/oat/arm64/NfcNci.odex (com.android.nfc.NfcService$WatchDogThread.run+836) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+DEBUG   : ABI: 'arm64'
+DEBUG   :     x4  0000000000003003  x5  0000000000003003  x6  0000000000003003  x7  0000000000003003
+DEBUG   : Cmdline: com.android.nfc
+DEBUG   :       #02 pc 0000000000017560  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+80) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+Exception Gedi: 19 00004 a função GEDI_USB_VidPidGet retornou GEDI_RET_INVALID_PARAMETER
+DEBUG   :     x12 000000000109adc0  x13 0000008842b4be2b  x14 001ec146db057460  x15 0000000000000000
+DEBUG   :     x20 00000000000000b2  x21 000000000000401f  x22 0000000000004030  x23 00000000ffffffff
+DEBUG   :       #03 pc 0000000000016a84  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+356) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+Exception Gedi: 27 00000 a função GEDI_RS232_Open retornou GEDI_RET_OK
+DEBUG   :       #07 pc 00000000006d3dd4  /system/app/NfcNci/oat/arm64/NfcNci.odex (com.android.nfc.NfcService$WatchDogThread.run+836) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+DEBUG   :       #01 pc 000000000062bbbc  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1372) (BuildId: 4a0be61ddd808601b68c0525a091191d)
+DEBUG   :     x4  0000000000003003  x5  0000000000003003  x6  0000000000003003  x7  0000000000003003
+DEBUG   :       #06 pc 00000000008b9f60  /system/app/NfcNci/oat/arm64/NfcNci.odex (art_jni_trampoline+128) (BuildId: d6b8dbfeff7e14e84b938e377ff6ce1d69e95106)
+Exception Gedi: 04 00010 a função GEDI_KMS_KCVGet retornou GEDI_RET_END_OF_LIST
+DEBUG   : Build fingerprint: 'Gertec/SK-210/SK-210:13/TP1A.220624.014/616:user/dev-keys'
+DEBUG   : Abort message: 'JNI FatalError called: enableInternal'
+DEBUG   :     x4  0000000000003003  x5  0000000000003003  x6  0000000000003003  x7  0000000000003003
+DEBUG   :       #00 pc 0000000000053324  /apex/com.android.runtime/lib64/bionic/libc.so (abort+180) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   : pid: 16387, tid: 16404, name: enableInternal  >>> com.android.nfc <<<
+Exception Gedi: 26 00005 a função GEDI_USB_StatusGet retornou GEDI_RET_TIMEOUT
+DEBUG   : Timestamp: 2023-12-09 08:19:06.999160403-0300
+DEBUG   : pid: 16701, tid: 16718, name: enableInternal  >>> com.android.nfc <<<
+DEBUG   :       #03 pc 0000000000016a84  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+356) (BuildId: 167481ebf6d9d15c317feb684fe496e7)
+DEBUG   :       #10 pc 0000000000624aec  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue 
+DEBUG   :       #10 pc 0000000000624aec  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeVirtualOrInterfaceWithJValues<art::ArtMethod*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, art::ArtMethod*, jvalue 
+DEBUG   :       #13 pc 0000000000054b50  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 30a4e47a740c4b6340eb774cc965a471)
+DEBUG   : backtrace:
+DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 16846 (enableInternal), pid 16829 (com.android.nfc)
+DEBUG   :     x8  00000000000000f0  x9  0000007f7a830a00  x10 0000000000000001  x11 0000007f7a871950
