@@ -11,7 +11,7 @@
 </p>
 
 <p align="left">
-  Para garantir a confiabilidade do código, também foi desenvolvido um script que contém funções de testes, que verificam se os erros apresentados no relatório estão condizentes com o conteúdo do arquivo de log.
+  Para garantir a confiabilidade do código, também foi desenvolvido um script que contém funções de testes, que verificam se as informações apresentadas no relatório estão condizentes com o conteúdo do arquivo de log.
 </p>
 
 # :hammer: Funcionalidades do projeto
@@ -43,6 +43,10 @@
 
 <p align="left">
   Para facilitar na manutenção do código, o arquivo util.py contém funções de utilidade para o projeto, e o arquivo init.py contém parametros utilizados para realizar substring no arquivo de log no momento de separar as mensagens de erro e função.
+</p>
+
+<p align="left">
+  Lembrando que todos os scripts python e o arquivo de log devem estar dentro do mesmo diretório.
 </p>
 
 # 📁 Informações complementares sobre o projeto
