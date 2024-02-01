@@ -18,3 +18,5 @@ else:
             for chave_funcao in data[chave].keys():
                 print(f'{chave_funcao} : {data[chave][chave_funcao]}')
             print('')
+
+input("Press Enter to continue...")
