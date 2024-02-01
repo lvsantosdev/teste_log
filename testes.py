@@ -99,3 +99,5 @@ if __name__ == '__main__':
     print(teste_tipo_qtd_erros_funcao('log.txt', 'GEDI_SMART_Status', 'GEDI_RET_OUT_OF_BOUNDS', 1))
     print(teste_tipo_qtd_erros_funcao('l.txt', 'GEDI_SMART_Status', 'GEDI_RET_FUNCTION_NOT_FOUND', 'teste'))
     print(teste_tipo_qtd_erros_funcao('txt', 'GEDI_SMART_Status', 'GEDI_RET_OUT_OF_BOUNDS', 'Arquivo de log nao encontrado'))
+
+    input("Press Enter to continue...")
