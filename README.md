@@ -37,7 +37,7 @@
 
     ![evidencia_teste_fun_total](https://github.com/lvsantosdev/teste_log/assets/105672045/43198704-79c6-4c4b-834c-6c4297fc0d99)
     
-  - `Funcionalidade 3b`: A função teste_tipo_qtd_erros_funcao(nome_arquivo_log, funcao_esperada, erro_esperado, retorno_esperado) recebe como input o nome do arquivo a ser lido, o nome da função, a mensagem de erro da função e a quantidade total de erros esperada para essa mensagem nessa respectiva função.
+  - `Funcionalidade 3c`: A função teste_tipo_qtd_erros_funcao(nome_arquivo_log, funcao_esperada, erro_esperado, retorno_esperado) recebe como input o nome do arquivo a ser lido, o nome da função, a mensagem de erro da função e a quantidade total de erros esperada para essa mensagem nessa respectiva função.
 
     ![evidencia_teste_fun_msg_total](https://github.com/lvsantosdev/teste_log/assets/105672045/e3a6d5d0-54cf-4089-a346-1c82a64db199)
 
