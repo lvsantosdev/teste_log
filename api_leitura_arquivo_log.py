@@ -5,7 +5,7 @@ from pathlib import Path
 import util
 import init
 
-def retorna_json_erros_log():
+def retorna_json_erros_log(nome_arquivo_log):
 
     try:
         
@@ -14,7 +14,7 @@ def retorna_json_erros_log():
      
         ##abertura do arquivo
         diretorio = Path(__file__).parent
-        diretorio_arquivo = str(diretorio) + '\log.txt'
+        diretorio_arquivo = str(diretorio) + '\\' + nome_arquivo_log
         arquivo_log = open(diretorio_arquivo, 'r', encoding = 'utf-8')
 
         ##recupera parametros
@@ -69,9 +69,6 @@ def retorna_json_erros_log():
         erro_json = {funcao_anterior:{'quantidade_de_erros': retorno_erros[1], 'erros': retorno_erros[0]}}
         erros_json.append(erro_json)
 
-        ##transforma a saida em json
-        erros_json = json.dumps(erros_json)
-
     except IOError:
         ##exception para tratar caso o arquivo nao esteja no caminho definido
         erros_json = {'Exception':'Arquivo de log nao encontrado'}
@@ -85,8 +82,9 @@ def retorna_json_erros_log():
         ##fechar o arquivo ao final da rotina
         if arquivo_existe:
             arquivo_log.close()
-        return erros_json
+        ##transforma a saida em json
+        return json.dumps(erros_json)
 
 if __name__ == '__main__':
-    erros_json = retorna_json_erros_log()
+    erros_json = retorna_json_erros_log('log.txt')
     print(erros_json)
