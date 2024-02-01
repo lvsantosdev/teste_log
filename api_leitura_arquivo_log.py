@@ -88,3 +88,4 @@ def retorna_json_erros_log(nome_arquivo_log):
 if __name__ == '__main__':
     erros_json = retorna_json_erros_log('log.txt')
     print(erros_json)
+    input("Press Enter to continue...")
